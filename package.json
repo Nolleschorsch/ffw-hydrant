@@ -1,7 +1,7 @@
 {
   "name": "ffw-hydrant",
   "version": "1.0.0",
-  "homepage": "https://nolleschorsch.github.io/ffw-hydrant",
+  "homepage": ".",
   "description": "",
   "main": "index.js",
   "scripts": {
