@@ -2,6 +2,7 @@ const webpack = require('webpack');
 require('dotenv').config({ path: './.env' });
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     output: {
@@ -43,6 +44,11 @@ module.exports = {
         new webpack.DefinePlugin({
             "process.env": JSON.stringify(process.env),
         }),
+        new CopyPlugin({
+            patterns: [
+                {from: "public"}
+            ]
+        })
     ],
     watchOptions: {
         poll: 1000, // Check for changes every second
