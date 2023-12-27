@@ -1,6 +1,7 @@
 import React from 'react'
 import {
     createBrowserRouter,
+    createHashRouter,
     RouterProvider,
     Navigate,
     useLocation
@@ -34,7 +35,8 @@ export const ProtectedRoute = ({ children }) => {
 
 
 // TODO: add Error Page
-const router = createBrowserRouter(
+//const router = createBrowserRouter(
+const router = createHashRouter(
     [{
         element: <AccessTokenProvider />,
         children:
