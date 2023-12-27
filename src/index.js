@@ -19,7 +19,7 @@ async function enableMocking() {
     // `worker.start()` returns a Promise that resolves
     // once the Service Worker is up and ready to intercept requests.
     // TODO: use flag so this still works in dev
-    return worker.start({onUnhandledRequest: "bypass", url: '../build/mockServiceWorker.js'})
+    return worker.start({onUnhandledRequest: "bypass", url: './mockServiceWorker.js'})
 }
 
 const container = document.getElementById('root')
