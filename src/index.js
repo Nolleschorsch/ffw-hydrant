@@ -9,9 +9,9 @@ async function enableMocking() {
     console.log('THE NODE_ENV ', process.env.NODE_ENV)
     console.log('MY_ENV_VAR', process.env.MY_ENV_VAR)
     // TODO: rename MY_ENV_VAR and change value to something meaningful
-    if (process.env.NODE_ENV !== 'development' || process.env.MY_ENV_VAR === 'Foo') {
+    /* if (process.env.NODE_ENV !== 'development' || process.env.MY_ENV_VAR === 'Foo') {
         return
-    }
+    } */
     
     //const { worker } = await import('./features/map/mocks/browser')
     const { worker } = await import('./mocks/browser')
