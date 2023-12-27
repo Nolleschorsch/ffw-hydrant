@@ -46,7 +46,8 @@ export const MapComponent = (props) => {
                     // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
                     //data: 'https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson',
                     //data: 'http://localhost:8080/hydrants_bw_geojsons_stripped.geojson',
-                    data: 'http://localhost:8080/hydrants_deutschland_stripped.geojson',
+                    //data: 'http://localhost:8080/hydrants_deutschland_stripped.geojson',
+                    data: 'https://github.com/Nolleschorsch/ffw-hydrant/blob/master/public/hydrants_bw.geojson',
                     //data: '../public/hydrants_deutschland_stripped.geojson',
                     //data: fooData,
                     cluster: true,

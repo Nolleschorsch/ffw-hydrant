@@ -32,7 +32,7 @@ export const Navigation = (props) => {
                                 <NavItem>
                                     <Link className="nav-link" to="/hydrant">Hydrant</Link>
                                 </NavItem>
-                               {/*  <Link className='nav-link' to='/openfiremap'>OpenFireMap</Link> */}
+                                <Link className='nav-link' to='/openfiremap'>OpenFireMap</Link>
                                 {/* <Nav.Link href="#action1">Home</Nav.Link>
                             <Nav.Link href="#action2">Link</Nav.Link> */}
                                 <NavDropdown

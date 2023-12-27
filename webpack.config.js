@@ -19,7 +19,11 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                exclude: [/node_modules/, path.resolve(__dirname, 'public/mockServiceWorker.js')],
+                exclude: [
+                    /node_modules/,
+                    path.resolve(__dirname, 'public/mockServiceWorker.js'),
+                    path.resolve(__dirname, 'public/hydrants_bw.geojson')
+                ],
                 use: {
                     loader: 'babel-loader',
                 },

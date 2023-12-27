@@ -56,11 +56,11 @@ const router = createHashRouter(
                         {
                             path: "/hydrant",
                             element: <Map />
-                        }/* ,
+                        },
                         {
                             path: "/openfiremap",
                             element: <OpenFireMap />
-                        } */
+                        }
                     ]
                 }, {
                     path: "/login",
