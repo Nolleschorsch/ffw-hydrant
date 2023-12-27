@@ -22,7 +22,8 @@ module.exports = {
                 exclude: [
                     /node_modules/,
                     path.resolve(__dirname, 'public/mockServiceWorker.js'),
-                    path.resolve(__dirname, 'public/hydrants_bw.geojson')
+                    path.resolve(__dirname, 'public/hydrants_bw.geojson'),
+                    path.resolve(__dirname, 'public/hydrants_de.geojson')
                 ],
                 use: {
                     loader: 'babel-loader',
