@@ -1,0 +1,589 @@
+{
+    "routes": [
+        {
+            "weight_name": "pedestrian",
+            "weight": 2353.11,
+            "duration": 2243.108,
+            "distance": 3175.843,
+            "legs": [
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 454.009,
+                    "duration": 443.065,
+                    "steps": [],
+                    "distance": 618.999,
+                    "summary": "Dorfwiesenstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 83.506,
+                    "duration": 75.789,
+                    "steps": [],
+                    "distance": 106.24,
+                    "summary": "Seestraße, Wehraweg"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 82.122,
+                    "duration": 66.894,
+                    "steps": [],
+                    "distance": 83.659,
+                    "summary": "Wehraweg, Kinzigstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 33.789,
+                    "duration": 33.789,
+                    "steps": [],
+                    "distance": 47.98,
+                    "summary": "Kinzigstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 49.468,
+                    "duration": 49.468,
+                    "steps": [],
+                    "distance": 70.244,
+                    "summary": "Kinzigstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 104.968,
+                    "duration": 99.721,
+                    "steps": [],
+                    "distance": 141.604,
+                    "summary": "Neckarstraße, Acherstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 41.366,
+                    "duration": 41.367,
+                    "steps": [],
+                    "distance": 58.74,
+                    "summary": "Acherstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 56.769,
+                    "duration": 56.769,
+                    "steps": [],
+                    "distance": 80.612,
+                    "summary": "Acherstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 76.504,
+                    "duration": 71.539,
+                    "steps": [],
+                    "distance": 100.166,
+                    "summary": "Acherstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 161.337,
+                    "duration": 151.506,
+                    "steps": [],
+                    "distance": 209.488,
+                    "summary": "Eisenstockstraße, Im Stöck"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 93.074,
+                    "duration": 93.232,
+                    "steps": [],
+                    "distance": 132.39,
+                    "summary": "Im Stöck"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 39.029,
+                    "duration": 38.834,
+                    "steps": [],
+                    "distance": 55.145,
+                    "summary": "Im Stöck"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 148.364,
+                    "duration": 138.535,
+                    "steps": [],
+                    "distance": 199.191,
+                    "summary": "Im Stöck, Eisenstockstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 166.092,
+                    "duration": 160.778,
+                    "steps": [],
+                    "distance": 234.012,
+                    "summary": "Eisenstockstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 68.288,
+                    "duration": 63.448,
+                    "steps": [],
+                    "distance": 85.879,
+                    "summary": "Eisenstockstraße, Neckarstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 67.682,
+                    "duration": 62.62,
+                    "steps": [],
+                    "distance": 85.532,
+                    "summary": "Neckarstraße, Murgstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 310.651,
+                    "duration": 287.024,
+                    "steps": [],
+                    "distance": 411.02,
+                    "summary": "Renchweg, Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 316.091,
+                    "duration": 308.728,
+                    "steps": [],
+                    "distance": 454.941,
+                    "summary": "Seestraße"
+                }
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        8.382913,
+                        48.928586
+                    ],
+                    [
+                        8.380161,
+                        48.925816
+                    ],
+                    [
+                        8.3794,
+                        48.925558
+                    ],
+                    [
+                        8.378418,
+                        48.925436
+                    ],
+                    [
+                        8.376988,
+                        48.925013
+                    ],
+                    [
+                        8.376116,
+                        48.924748
+                    ],
+                    [
+                        8.376394,
+                        48.924482
+                    ],
+                    [
+                        8.37663,
+                        48.924086
+                    ],
+                    [
+                        8.376434,
+                        48.924003
+                    ],
+                    [
+                        8.376451,
+                        48.923834
+                    ],
+                    [
+                        8.376447,
+                        48.923403
+                    ],
+                    [
+                        8.376441,
+                        48.922772
+                    ],
+                    [
+                        8.377128,
+                        48.922767
+                    ],
+                    [
+                        8.37737,
+                        48.922156
+                    ],
+                    [
+                        8.377082,
+                        48.922154
+                    ],
+                    [
+                        8.376279,
+                        48.922148
+                    ],
+                    [
+                        8.375177,
+                        48.92214
+                    ],
+                    [
+                        8.374113,
+                        48.922158
+                    ],
+                    [
+                        8.374169,
+                        48.922354
+                    ],
+                    [
+                        8.374113,
+                        48.922158
+                    ],
+                    [
+                        8.374443,
+                        48.922135
+                    ],
+                    [
+                        8.374434,
+                        48.921289
+                    ],
+                    [
+                        8.375375,
+                        48.92129
+                    ],
+                    [
+                        8.377176,
+                        48.921243
+                    ],
+                    [
+                        8.376431,
+                        48.921286
+                    ],
+                    [
+                        8.374434,
+                        48.921289
+                    ],
+                    [
+                        8.374431,
+                        48.921067
+                    ],
+                    [
+                        8.37405,
+                        48.921116
+                    ],
+                    [
+                        8.374431,
+                        48.921067
+                    ],
+                    [
+                        8.374443,
+                        48.922914
+                    ],
+                    [
+                        8.374441,
+                        48.922774
+                    ],
+                    [
+                        8.375402,
+                        48.922771
+                    ],
+                    [
+                        8.375506,
+                        48.922771
+                    ],
+                    [
+                        8.375501,
+                        48.923471
+                    ],
+                    [
+                        8.375495,
+                        48.923974
+                    ],
+                    [
+                        8.375608,
+                        48.923979
+                    ],
+                    [
+                        8.375528,
+                        48.924545
+                    ],
+                    [
+                        8.378051,
+                        48.925342
+                    ],
+                    [
+                        8.379079,
+                        48.925521
+                    ],
+                    [
+                        8.380161,
+                        48.925816
+                    ],
+                    [
+                        8.382913,
+                        48.928586
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "waypoints": [
+        {
+            "distance": 0.003,
+            "name": "Dorfwiesenstraße",
+            "location": [
+                8.382913,
+                48.928586
+            ]
+        },
+        {
+            "distance": 0.023,
+            "name": "Seestraße",
+            "location": [
+                8.376988,
+                48.925013
+            ]
+        },
+        {
+            "distance": 0.016,
+            "name": "Wehraweg",
+            "location": [
+                8.376394,
+                48.924482
+            ]
+        },
+        {
+            "distance": 0.001,
+            "name": "Kinzigstraße",
+            "location": [
+                8.376451,
+                48.923834
+            ]
+        },
+        {
+            "distance": 0.005,
+            "name": "Kinzigstraße",
+            "location": [
+                8.376447,
+                48.923403
+            ]
+        },
+        {
+            "distance": 0.585,
+            "name": "Kinzigstraße",
+            "location": [
+                8.376441,
+                48.922772
+            ]
+        },
+        {
+            "distance": 0.007,
+            "name": "Acherstraße",
+            "location": [
+                8.377082,
+                48.922154
+            ]
+        },
+        {
+            "distance": 0.019,
+            "name": "Acherstraße",
+            "location": [
+                8.376279,
+                48.922148
+            ]
+        },
+        {
+            "distance": 0.03,
+            "name": "Acherstraße",
+            "location": [
+                8.375177,
+                48.92214
+            ]
+        },
+        {
+            "distance": 0.013,
+            "name": "",
+            "location": [
+                8.374169,
+                48.922354
+            ]
+        },
+        {
+            "distance": 0.012,
+            "name": "Im Stöck",
+            "location": [
+                8.375375,
+                48.92129
+            ]
+        },
+        {
+            "distance": 3.475,
+            "name": "Im Stöck",
+            "location": [
+                8.377176,
+                48.921243
+            ]
+        },
+        {
+            "distance": 0.074,
+            "name": "Im Stöck",
+            "location": [
+                8.376431,
+                48.921286
+            ]
+        },
+        {
+            "distance": 0.055,
+            "name": "",
+            "location": [
+                8.37405,
+                48.921116
+            ]
+        },
+        {
+            "distance": 0.007,
+            "name": "Eisenstockstraße",
+            "location": [
+                8.374443,
+                48.922914
+            ]
+        },
+        {
+            "distance": 0.033,
+            "name": "Neckarstraße",
+            "location": [
+                8.375402,
+                48.922771
+            ]
+        },
+        {
+            "distance": 0.009,
+            "name": "Murgstraße",
+            "location": [
+                8.375501,
+                48.923471
+            ]
+        },
+        {
+            "distance": 0.043,
+            "name": "Seestraße",
+            "location": [
+                8.379079,
+                48.925521
+            ]
+        },
+        {
+            "distance": 0.003,
+            "name": "Dorfwiesenstraße",
+            "location": [
+                8.382913,
+                48.928586
+            ]
+        }
+    ],
+    "code": "Ok",
+    "uuid": "gXOddPC4hROL4e5GGTWohX_yDeinS73QePFmpMfBj4MZIRInh_VgMA=="
+}

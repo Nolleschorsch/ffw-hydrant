@@ -1,0 +1,567 @@
+{
+    "routes": [
+        {
+            "weight_name": "pedestrian",
+            "weight": 2216.115,
+            "duration": 2109.744,
+            "distance": 3000.172,
+            "legs": [
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 395.675,
+                    "duration": 389.303,
+                    "steps": [],
+                    "distance": 541.641,
+                    "summary": "Dorfwiesenstraße, Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 91.473,
+                    "duration": 90.73,
+                    "steps": [],
+                    "distance": 119.536,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 53.055,
+                    "duration": 53.276,
+                    "steps": [],
+                    "distance": 84.057,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 87.887,
+                    "duration": 87.777,
+                    "steps": [],
+                    "distance": 137.845,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 156.274,
+                    "duration": 151.01,
+                    "steps": [],
+                    "distance": 212.563,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 83.653,
+                    "duration": 75.408,
+                    "steps": [],
+                    "distance": 105.257,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 177.956,
+                    "duration": 166.748,
+                    "steps": [],
+                    "distance": 247.723,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 51.418,
+                    "duration": 47.929,
+                    "steps": [],
+                    "distance": 67.249,
+                    "summary": "Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 107.235,
+                    "duration": 88.611,
+                    "steps": [],
+                    "distance": 114.683,
+                    "summary": "Seestraße, Oosstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 94.826,
+                    "duration": 92.826,
+                    "steps": [],
+                    "distance": 126.092,
+                    "summary": "Beierbachstraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 43.79,
+                    "duration": 36.624,
+                    "steps": [],
+                    "distance": 62.067,
+                    "summary": "Beierbachstraße, Elzweg"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 254.53,
+                    "duration": 241.478,
+                    "steps": [],
+                    "distance": 354.958,
+                    "summary": "Elzweg, Seestraße"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 65.083,
+                    "duration": 65.083,
+                    "steps": [],
+                    "distance": 92.418,
+                    "summary": "Heckenweg"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 66.072,
+                    "duration": 63.04,
+                    "steps": [],
+                    "distance": 102.805,
+                    "summary": "Heckenweg"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 164.303,
+                    "duration": 155.382,
+                    "steps": [],
+                    "distance": 210.011,
+                    "summary": "Heckenweg, Am Sportplatz"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 40.966,
+                    "duration": 40.966,
+                    "steps": [],
+                    "distance": 58.172,
+                    "summary": "Am Sportplatz"
+                },
+                {
+                    "via_waypoints": [],
+                    "admins": [
+                        {
+                            "iso_3166_1_alpha3": "DEU",
+                            "iso_3166_1": "DE"
+                        }
+                    ],
+                    "weight": 281.918,
+                    "duration": 263.554,
+                    "steps": [],
+                    "distance": 363.096,
+                    "summary": "Am Sportplatz, Dorfwiesenstraße"
+                }
+            ],
+            "geometry": {
+                "coordinates": [
+                    [
+                        8.382913,
+                        48.928586
+                    ],
+                    [
+                        8.380161,
+                        48.925816
+                    ],
+                    [
+                        8.381676,
+                        48.92508
+                    ],
+                    [
+                        8.381969,
+                        48.925334
+                    ],
+                    [
+                        8.381676,
+                        48.92508
+                    ],
+                    [
+                        8.382592,
+                        48.924624
+                    ],
+                    [
+                        8.381676,
+                        48.92508
+                    ],
+                    [
+                        8.380161,
+                        48.925816
+                    ],
+                    [
+                        8.3794,
+                        48.925558
+                    ],
+                    [
+                        8.378418,
+                        48.925436
+                    ],
+                    [
+                        8.37746,
+                        48.925158
+                    ],
+                    [
+                        8.376331,
+                        48.924819
+                    ],
+                    [
+                        8.37625,
+                        48.924937
+                    ],
+                    [
+                        8.376331,
+                        48.924819
+                    ],
+                    [
+                        8.374417,
+                        48.924109
+                    ],
+                    [
+                        8.373775,
+                        48.923614
+                    ],
+                    [
+                        8.374367,
+                        48.924076
+                    ],
+                    [
+                        8.374908,
+                        48.924314
+                    ],
+                    [
+                        8.374956,
+                        48.923962
+                    ],
+                    [
+                        8.375322,
+                        48.92397
+                    ],
+                    [
+                        8.376434,
+                        48.924003
+                    ],
+                    [
+                        8.37698,
+                        48.924179
+                    ],
+                    [
+                        8.377208,
+                        48.924249
+                    ],
+                    [
+                        8.377281,
+                        48.924428
+                    ],
+                    [
+                        8.377167,
+                        48.924606
+                    ],
+                    [
+                        8.376824,
+                        48.92496
+                    ],
+                    [
+                        8.378051,
+                        48.925342
+                    ],
+                    [
+                        8.3794,
+                        48.925558
+                    ],
+                    [
+                        8.380161,
+                        48.925816
+                    ],
+                    [
+                        8.379686,
+                        48.926062
+                    ],
+                    [
+                        8.379361,
+                        48.926165
+                    ],
+                    [
+                        8.378465,
+                        48.926218
+                    ],
+                    [
+                        8.37707,
+                        48.926112
+                    ],
+                    [
+                        8.378392,
+                        48.926219
+                    ],
+                    [
+                        8.379208,
+                        48.927075
+                    ],
+                    [
+                        8.379651,
+                        48.927509
+                    ],
+                    [
+                        8.380243,
+                        48.928088
+                    ],
+                    [
+                        8.381679,
+                        48.927478
+                    ],
+                    [
+                        8.382368,
+                        48.928086
+                    ],
+                    [
+                        8.382414,
+                        48.928061
+                    ],
+                    [
+                        8.382913,
+                        48.928586
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "waypoints": [
+        {
+            "distance": 0.003,
+            "name": "Dorfwiesenstraße",
+            "location": [
+                8.382913,
+                48.928586
+            ]
+        },
+        {
+            "distance": 1.107,
+            "name": "Seestraße",
+            "location": [
+                8.381969,
+                48.925334
+            ]
+        },
+        {
+            "distance": 0.034,
+            "name": "Seestraße",
+            "location": [
+                8.382592,
+                48.924624
+            ]
+        },
+        {
+            "distance": 2.081,
+            "name": "Seestraße",
+            "location": [
+                8.381676,
+                48.92508
+            ]
+        },
+        {
+            "distance": 1.287,
+            "name": "Seestraße",
+            "location": [
+                8.380161,
+                48.925816
+            ]
+        },
+        {
+            "distance": 0,
+            "name": "Seestraße",
+            "location": [
+                8.37746,
+                48.925158
+            ]
+        },
+        {
+            "distance": 0.012,
+            "name": "",
+            "location": [
+                8.37625,
+                48.924937
+            ]
+        },
+        {
+            "distance": 2.796,
+            "name": "Seestraße",
+            "location": [
+                8.373775,
+                48.923614
+            ]
+        },
+        {
+            "distance": 0.017,
+            "name": "Seestraße",
+            "location": [
+                8.374367,
+                48.924076
+            ]
+        },
+        {
+            "distance": 0.017,
+            "name": "Beierbachstraße",
+            "location": [
+                8.375322,
+                48.92397
+            ]
+        },
+        {
+            "distance": 0,
+            "name": "Beierbachstraße",
+            "location": [
+                8.37698,
+                48.924179
+            ]
+        },
+        {
+            "distance": 3.982,
+            "name": "Elzweg",
+            "location": [
+                8.377167,
+                48.924606
+            ]
+        },
+        {
+            "distance": 0.062,
+            "name": "Heckenweg",
+            "location": [
+                8.379686,
+                48.926062
+            ]
+        },
+        {
+            "distance": 0.039,
+            "name": "Heckenweg",
+            "location": [
+                8.378465,
+                48.926218
+            ]
+        },
+        {
+            "distance": 2.06,
+            "name": "Heckenweg",
+            "location": [
+                8.37707,
+                48.926112
+            ]
+        },
+        {
+            "distance": 0.006,
+            "name": "Am Sportplatz",
+            "location": [
+                8.379208,
+                48.927075
+            ]
+        },
+        {
+            "distance": 0.022,
+            "name": "Am Sportplatz",
+            "location": [
+                8.379651,
+                48.927509
+            ]
+        },
+        {
+            "distance": 0.003,
+            "name": "Dorfwiesenstraße",
+            "location": [
+                8.382913,
+                48.928586
+            ]
+        }
+    ],
+    "code": "Ok",
+    "uuid": "qVga9jJLW3eAfRlPPUvr3DCU3DUd3QyWEib7XnWBStR266QqYCNlJg=="
+}
