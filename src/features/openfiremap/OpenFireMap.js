@@ -47,7 +47,7 @@ export const MapComponent = (props) => {
                     //data: 'https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson',
                     //data: 'http://localhost:8080/hydrants_bw_geojsons_stripped.geojson',
                     //data: 'http://localhost:8080/hydrants_deutschland_stripped.geojson',
-                    data: 'https://github.com/Nolleschorsch/ffw-hydrant/blob/master/public/hydrants_bw.geojson',
+                    data: 'https://nolleschorsch.github.io/ffw-hydrant/hydrants_bw.geojson',
                     //data: '../public/hydrants_deutschland_stripped.geojson',
                     //data: fooData,
                     cluster: true,
