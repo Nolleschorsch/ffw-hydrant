@@ -19,7 +19,7 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
+                exclude: [/node_modules/, path.resolve(__dirname, 'public/mockServiceWorker.js')],
                 use: {
                     loader: 'babel-loader',
                 },
