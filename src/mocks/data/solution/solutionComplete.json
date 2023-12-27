@@ -1,0 +1,2606 @@
+{
+    "dropped": {
+        "services": [],
+        "shipments": []
+    },
+    "routes": [
+        {
+            "vehicle": "Gruppe 7",
+            "stops": [
+                {
+                    "location": "Otto-Dix-Straße 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391678,
+                            48.924409
+                        ],
+                        "snapped_coordinate": [
+                            8.391829,
+                            48.924395
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391678-48.924409"
+                    ],
+                    "odometer": 870,
+                    "wait": 0
+                },
+                {
+                    "location": "Karl-Albicker-Straße Kreuzung Karl-Hofer-Straße",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392686217514921,
+                            48.92495688630916
+                        ],
+                        "snapped_coordinate": [
+                            8.392682,
+                            48.924957
+                        ]
+                    },
+                    "eta": "1970-01-01T00:06:26Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392686217514921-48.92495688630916"
+                    ],
+                    "odometer": 990,
+                    "wait": 0
+                },
+                {
+                    "location": "Karl-Hofer-Straße 8",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392083,
+                            48.924913
+                        ],
+                        "snapped_coordinate": [
+                            8.392082,
+                            48.924998
+                        ]
+                    },
+                    "eta": "1970-01-01T00:12:01Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392083-48.924913"
+                    ],
+                    "odometer": 1039,
+                    "wait": 0
+                },
+                {
+                    "location": "Erich-Heckel-Straße 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391379,
+                            48.925935
+                        ],
+                        "snapped_coordinate": [
+                            8.391488,
+                            48.925919
+                        ]
+                    },
+                    "eta": "1970-01-01T00:19:03Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391379-48.925935"
+                    ],
+                    "odometer": 1210,
+                    "wait": 0
+                },
+                {
+                    "location": "Erich-Heckel-Straße 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391161,
+                            48.925596
+                        ],
+                        "snapped_coordinate": [
+                            8.391195,
+                            48.925678
+                        ]
+                    },
+                    "eta": "1970-01-01T00:24:37Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391161-48.925596"
+                    ],
+                    "odometer": 1257,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Grabenacker 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390957,
+                            48.926287
+                        ],
+                        "snapped_coordinate": [
+                            8.390806,
+                            48.926311
+                        ]
+                    },
+                    "eta": "1970-01-01T00:30:52Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390957-48.926287"
+                    ],
+                    "odometer": 1361,
+                    "wait": 0
+                },
+                {
+                    "location": "Bergwaldstraße 13",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391393,
+                            48.927136
+                        ],
+                        "snapped_coordinate": [
+                            8.391289,
+                            48.927062
+                        ]
+                    },
+                    "eta": "1970-01-01T00:36:58Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391393-48.927136"
+                    ],
+                    "odometer": 1454,
+                    "wait": 0
+                },
+                {
+                    "location": "Pfarrer-Benz-Straße 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391043,
+                            48.927551
+                        ],
+                        "snapped_coordinate": [
+                            8.390912,
+                            48.927586
+                        ]
+                    },
+                    "eta": "1970-01-01T00:42:56Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391043-48.927551"
+                    ],
+                    "odometer": 1535,
+                    "wait": 0
+                },
+                {
+                    "location": "Georg-Blasel-Straße Ecke Im Weilig",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.39129011075886,
+                            48.92835192555981
+                        ],
+                        "snapped_coordinate": [
+                            8.391262,
+                            48.928335
+                        ]
+                    },
+                    "eta": "1970-01-01T00:49:06Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.39129011075886-48.92835192555981"
+                    ],
+                    "odometer": 1632,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 25",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392169,
+                            48.927699
+                        ],
+                        "snapped_coordinate": [
+                            8.392274,
+                            48.927767
+                        ]
+                    },
+                    "eta": "1970-01-01T00:55:16Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392169-48.927699"
+                    ],
+                    "odometer": 1730,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 76",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392323,
+                            48.92818
+                        ],
+                        "snapped_coordinate": [
+                            8.392483,
+                            48.928085
+                        ]
+                    },
+                    "eta": "1970-01-01T01:00:49Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392323-48.92818"
+                    ],
+                    "odometer": 1776,
+                    "wait": 0
+                },
+                {
+                    "location": "Brückelweg 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392425,
+                            48.926836
+                        ],
+                        "snapped_coordinate": [
+                            8.392585,
+                            48.926819
+                        ]
+                    },
+                    "eta": "1970-01-01T01:07:47Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392425-48.926836"
+                    ],
+                    "odometer": 1941,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 15",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392995,
+                            48.927196
+                        ],
+                        "snapped_coordinate": [
+                            8.393039,
+                            48.927289
+                        ]
+                    },
+                    "eta": "1970-01-01T01:13:39Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392995-48.927196"
+                    ],
+                    "odometer": 2013,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 44",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393944,
+                            48.927424
+                        ],
+                        "snapped_coordinate": [
+                            8.393789,
+                            48.9274
+                        ]
+                    },
+                    "eta": "1970-01-01T01:19:36Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393944-48.927424"
+                    ],
+                    "odometer": 2093,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 11",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393455,
+                            48.927035
+                        ],
+                        "snapped_coordinate": [
+                            8.393604,
+                            48.927077
+                        ]
+                    },
+                    "eta": "1970-01-01T01:25:05Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393455-48.927035"
+                    ],
+                    "odometer": 2133,
+                    "wait": 0
+                },
+                {
+                    "location": "Schauinslandstraße 9",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.394296,
+                            48.926203
+                        ],
+                        "snapped_coordinate": [
+                            8.394455,
+                            48.926167
+                        ]
+                    },
+                    "eta": "1970-01-01T01:31:43Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.394296-48.926203"
+                    ],
+                    "odometer": 2270,
+                    "wait": 0
+                },
+                {
+                    "location": "Schauinslandstraße 3",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393968,
+                            48.925583
+                        ],
+                        "snapped_coordinate": [
+                            8.39413,
+                            48.925547
+                        ]
+                    },
+                    "eta": "1970-01-01T01:37:36Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393968-48.925583"
+                    ],
+                    "odometer": 2343,
+                    "wait": 0
+                },
+                {
+                    "location": "Bergwaldstraße 34",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393658,
+                            48.925189
+                        ],
+                        "snapped_coordinate": [
+                            8.393753,
+                            48.925288
+                        ]
+                    },
+                    "eta": "1970-01-01T01:43:12Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393658-48.925189"
+                    ],
+                    "odometer": 2393,
+                    "wait": 0
+                }
+            ]
+        },
+        {
+            "vehicle": "Gruppe 5",
+            "stops": [
+                {
+                    "location": "Belchenstraße 60",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393053,
+                            48.92783
+                        ],
+                        "snapped_coordinate": [
+                            8.393184,
+                            48.927794
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393053-48.92783"
+                    ],
+                    "odometer": 543,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 30",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.394683,
+                            48.927117
+                        ],
+                        "snapped_coordinate": [
+                            8.394511,
+                            48.92719
+                        ]
+                    },
+                    "eta": "1970-01-01T00:07:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.394683-48.927117"
+                    ],
+                    "odometer": 703,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 22",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393702,
+                            48.926047
+                        ],
+                        "snapped_coordinate": [
+                            8.393815,
+                            48.926113
+                        ]
+                    },
+                    "eta": "1970-01-01T00:14:16Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393702-48.926047"
+                    ],
+                    "odometer": 892,
+                    "wait": 0
+                },
+                {
+                    "location": "Belchenstraße 10",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393456,
+                            48.92573
+                        ],
+                        "snapped_coordinate": [
+                            8.393553,
+                            48.925786
+                        ]
+                    },
+                    "eta": "1970-01-01T00:20:51Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393456-48.92573"
+                    ],
+                    "odometer": 1024,
+                    "wait": 0
+                },
+                {
+                    "location": "Bergwaldstraße 28",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392006,
+                            48.926316
+                        ],
+                        "snapped_coordinate": [
+                            8.392191,
+                            48.926411
+                        ]
+                    },
+                    "eta": "1970-01-01T00:27:33Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392006-48.926316"
+                    ],
+                    "odometer": 1167,
+                    "wait": 0
+                },
+                {
+                    "location": "Bergwaldstraße 14",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390615,
+                            48.927261
+                        ],
+                        "snapped_coordinate": [
+                            8.390669,
+                            48.92735
+                        ]
+                    },
+                    "eta": "1970-01-01T00:34:25Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390615-48.927261"
+                    ],
+                    "odometer": 1322,
+                    "wait": 0
+                },
+                {
+                    "location": "Rosenstraße 6",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388159,
+                            48.928154
+                        ],
+                        "snapped_coordinate": [
+                            8.388102,
+                            48.928084
+                        ]
+                    },
+                    "eta": "1970-01-01T00:41:52Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388159-48.928154"
+                    ],
+                    "odometer": 1527,
+                    "wait": 0
+                },
+                {
+                    "location": "Rosenstraße 16",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.387241,
+                            48.928353
+                        ],
+                        "snapped_coordinate": [
+                            8.387206,
+                            48.928281
+                        ]
+                    },
+                    "eta": "1970-01-01T00:47:42Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.387241-48.928353"
+                    ],
+                    "odometer": 1596,
+                    "wait": 0
+                },
+                {
+                    "location": "Römerstraße 24",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.38599,
+                            48.928754
+                        ],
+                        "snapped_coordinate": [
+                            8.386105,
+                            48.928744
+                        ]
+                    },
+                    "eta": "1970-01-01T00:54:03Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.38599-48.928754"
+                    ],
+                    "odometer": 1709,
+                    "wait": 0
+                },
+                {
+                    "location": "Römerstraße 10",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.386203,
+                            48.929662
+                        ],
+                        "snapped_coordinate": [
+                            8.386234,
+                            48.929754
+                        ]
+                    },
+                    "eta": "1970-01-01T01:00:41Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.386203-48.929662"
+                    ],
+                    "odometer": 1839,
+                    "wait": 0
+                },
+                {
+                    "location": "Römerstraße 18",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.386062,
+                            48.929168
+                        ],
+                        "snapped_coordinate": [
+                            8.386192,
+                            48.929156
+                        ]
+                    },
+                    "eta": "1970-01-01T01:06:45Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.386062-48.929168"
+                    ],
+                    "odometer": 1923,
+                    "wait": 0
+                },
+                {
+                    "location": "Römerstraße 34",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.385788,
+                            48.928061
+                        ],
+                        "snapped_coordinate": [
+                            8.385911,
+                            48.928043
+                        ]
+                    },
+                    "eta": "1970-01-01T01:13:15Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.385788-48.928061"
+                    ],
+                    "odometer": 2049,
+                    "wait": 0
+                },
+                {
+                    "location": "Römerstraße 44",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.38562,
+                            48.927247
+                        ],
+                        "snapped_coordinate": [
+                            8.38579,
+                            48.927244
+                        ]
+                    },
+                    "eta": "1970-01-01T01:19:20Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.38562-48.927247"
+                    ],
+                    "odometer": 2139,
+                    "wait": 0
+                },
+                {
+                    "location": "Römerstraße 54",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.385493,
+                            48.92653
+                        ],
+                        "snapped_coordinate": [
+                            8.385541,
+                            48.926405
+                        ]
+                    },
+                    "eta": "1970-01-01T01:25:35Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.385493-48.92653"
+                    ],
+                    "odometer": 2244,
+                    "wait": 0
+                },
+                {
+                    "location": "Graf-Eberstein-Straße 14",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.386623,
+                            48.925879
+                        ],
+                        "snapped_coordinate": [
+                            8.386538,
+                            48.92577
+                        ]
+                    },
+                    "eta": "1970-01-01T01:32:10Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.386623-48.925879"
+                    ],
+                    "odometer": 2376,
+                    "wait": 0
+                },
+                {
+                    "location": "Graf-Eberstein-Straße 6",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.387319,
+                            48.925638
+                        ],
+                        "snapped_coordinate": [
+                            8.387241,
+                            48.925535
+                        ]
+                    },
+                    "eta": "1970-01-01T01:37:51Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.387319-48.925638"
+                    ],
+                    "odometer": 2434,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße Kreuzung Graf-Ebersteinstraße",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388131215644705,
+                            48.925291647533385
+                        ],
+                        "snapped_coordinate": [
+                            8.388135,
+                            48.9253
+                        ]
+                    },
+                    "eta": "1970-01-01T01:43:42Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388131215644705-48.925291647533385"
+                    ],
+                    "odometer": 2505,
+                    "wait": 0
+                }
+            ]
+        },
+        {
+            "vehicle": "Gruppe 4",
+            "stops": [
+                {
+                    "location": "Seestraße 32",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376123,
+                            48.924897
+                        ],
+                        "snapped_coordinate": [
+                            8.37625,
+                            48.924937
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376123-48.924897"
+                    ],
+                    "odometer": 1258,
+                    "wait": 0
+                },
+                {
+                    "location": "Wehraweg 8",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376276,
+                            48.924429
+                        ],
+                        "snapped_coordinate": [
+                            8.376394,
+                            48.924482
+                        ]
+                    },
+                    "eta": "1970-01-01T00:05:48Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376276-48.924429"
+                    ],
+                    "odometer": 1326,
+                    "wait": 0
+                },
+                {
+                    "location": "Beierbachstraße 4",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.377019,
+                            48.924104
+                        ],
+                        "snapped_coordinate": [
+                            8.37698,
+                            48.924179
+                        ]
+                    },
+                    "eta": "1970-01-01T00:11:43Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.377019-48.924104"
+                    ],
+                    "odometer": 1401,
+                    "wait": 0
+                },
+                {
+                    "location": "Elzweg 7",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.377325,
+                            48.924611
+                        ],
+                        "snapped_coordinate": [
+                            8.377188,
+                            48.924573
+                        ]
+                    },
+                    "eta": "1970-01-01T00:17:24Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.377325-48.924611"
+                    ],
+                    "odometer": 1459,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße Höhe Pfinzweg 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376994425464517,
+                            48.92500527558536
+                        ],
+                        "snapped_coordinate": [
+                            8.376988,
+                            48.925013
+                        ]
+                    },
+                    "eta": "1970-01-01T00:23:10Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376994425464517-48.92500527558536"
+                    ],
+                    "odometer": 1523,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße Vettermann",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.377463493534123,
+                            48.9251485632509
+                        ],
+                        "snapped_coordinate": [
+                            8.37746,
+                            48.925158
+                        ]
+                    },
+                    "eta": "1970-01-01T00:28:38Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.377463493534123-48.9251485632509"
+                    ],
+                    "odometer": 1561,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße 24b",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.379025,
+                            48.925719
+                        ],
+                        "snapped_coordinate": [
+                            8.379079,
+                            48.925521
+                        ]
+                    },
+                    "eta": "1970-01-01T00:35:08Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.379025-48.925719"
+                    ],
+                    "odometer": 1687,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße Kreuzung Dorfwiesenstraße",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.380172920664535,
+                            48.92580693518761
+                        ],
+                        "snapped_coordinate": [
+                            8.380175,
+                            48.925809
+                        ]
+                    },
+                    "eta": "1970-01-01T00:41:12Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.380172920664535-48.92580693518761"
+                    ],
+                    "odometer": 1775,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße 6d",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.382065,
+                            48.925274
+                        ],
+                        "snapped_coordinate": [
+                            8.38196,
+                            48.925326
+                        ]
+                    },
+                    "eta": "1970-01-01T00:48:15Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.382065-48.925274"
+                    ],
+                    "odometer": 1946,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße 7",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.382494,
+                            48.924539
+                        ],
+                        "snapped_coordinate": [
+                            8.382592,
+                            48.924624
+                        ]
+                    },
+                    "eta": "1970-01-01T00:54:40Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.382494-48.924539"
+                    ],
+                    "odometer": 2064,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße 13",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.381537,
+                            48.924981
+                        ],
+                        "snapped_coordinate": [
+                            8.381653,
+                            48.925091
+                        ]
+                    },
+                    "eta": "1970-01-01T01:00:42Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.381537-48.924981"
+                    ],
+                    "odometer": 2150,
+                    "wait": 0
+                },
+                {
+                    "location": "Heckenweg 4",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.379751,
+                            48.926116
+                        ],
+                        "snapped_coordinate": [
+                            8.379687,
+                            48.926062
+                        ]
+                    },
+                    "eta": "1970-01-01T01:07:51Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.379751-48.926116"
+                    ],
+                    "odometer": 2330,
+                    "wait": 0
+                },
+                {
+                    "location": "Heckenweg 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.37846,
+                            48.926116
+                        ],
+                        "snapped_coordinate": [
+                            8.378465,
+                            48.926218
+                        ]
+                    },
+                    "eta": "1970-01-01T01:13:58Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.37846-48.926116"
+                    ],
+                    "odometer": 2423,
+                    "wait": 0
+                },
+                {
+                    "location": "Heckenweg 17",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.377029,
+                            48.926018
+                        ],
+                        "snapped_coordinate": [
+                            8.377042,
+                            48.926114
+                        ]
+                    },
+                    "eta": "1970-01-01T01:20:13Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.377029-48.926018"
+                    ],
+                    "odometer": 2528,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Sportplatz 15",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.3791,
+                            48.927123
+                        ],
+                        "snapped_coordinate": [
+                            8.379208,
+                            48.927075
+                        ]
+                    },
+                    "eta": "1970-01-01T01:27:46Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.3791-48.927123"
+                    ],
+                    "odometer": 2740,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Sportplatz 25",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.37953,
+                            48.927562
+                        ],
+                        "snapped_coordinate": [
+                            8.379651,
+                            48.927509
+                        ]
+                    },
+                    "eta": "1970-01-01T01:33:28Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.37953-48.927562"
+                    ],
+                    "odometer": 2798,
+                    "wait": 0
+                }
+            ]
+        },
+        {
+            "vehicle": "Gruppe 3",
+            "stops": [
+                {
+                    "location": "Otto-Dix-Straße 9",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391022,
+                            48.924064
+                        ],
+                        "snapped_coordinate": [
+                            8.390922,
+                            48.924116
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391022-48.924064"
+                    ],
+                    "odometer": 902,
+                    "wait": 0
+                },
+                {
+                    "location": "Otto-Dix-Straße Grabenacker 25",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390080221067478,
+                            48.92390613164926
+                        ],
+                        "snapped_coordinate": [
+                            8.390085,
+                            48.923916
+                        ]
+                    },
+                    "eta": "1970-01-01T00:06:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390080221067478-48.92390613164926"
+                    ],
+                    "odometer": 987,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Grabenacker 19",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390393,
+                            48.924661
+                        ],
+                        "snapped_coordinate": [
+                            8.390212,
+                            48.924694
+                        ]
+                    },
+                    "eta": "1970-01-01T00:12:10Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390393-48.924661"
+                    ],
+                    "odometer": 1084,
+                    "wait": 0
+                },
+                {
+                    "location": "Karl-Hofer-Straße 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390962,
+                            48.924869
+                        ],
+                        "snapped_coordinate": [
+                            8.39084,
+                            48.924887
+                        ]
+                    },
+                    "eta": "1970-01-01T00:18:13Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390962-48.924869"
+                    ],
+                    "odometer": 1172,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Grabenacker 15",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390553,
+                            48.925181
+                        ],
+                        "snapped_coordinate": [
+                            8.390417,
+                            48.925203
+                        ]
+                    },
+                    "eta": "1970-01-01T00:24:08Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390553-48.925181"
+                    ],
+                    "odometer": 1248,
+                    "wait": 0
+                },
+                {
+                    "location": "Max-Beckmann-Straße 14",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389531,
+                            48.924475
+                        ],
+                        "snapped_coordinate": [
+                            8.389586,
+                            48.924559
+                        ]
+                    },
+                    "eta": "1970-01-01T00:30:42Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389531-48.924475"
+                    ],
+                    "odometer": 1379,
+                    "wait": 0
+                },
+                {
+                    "location": "Max-Beckmann-Straße 8",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388906,
+                            48.924668
+                        ],
+                        "snapped_coordinate": [
+                            8.38897,
+                            48.924763
+                        ]
+                    },
+                    "eta": "1970-01-01T00:36:18Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388906-48.924668"
+                    ],
+                    "odometer": 1430,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 60",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.387824,
+                            48.924844
+                        ],
+                        "snapped_coordinate": [
+                            8.387981,
+                            48.924818
+                        ]
+                    },
+                    "eta": "1970-01-01T00:42:28Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.387824-48.924844"
+                    ],
+                    "odometer": 1527,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 50",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388056,
+                            48.925571
+                        ],
+                        "snapped_coordinate": [
+                            8.388245,
+                            48.925545
+                        ]
+                    },
+                    "eta": "1970-01-01T00:48:27Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388056-48.925571"
+                    ],
+                    "odometer": 1610,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 48",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388139,
+                            48.925839
+                        ],
+                        "snapped_coordinate": [
+                            8.388331,
+                            48.925813
+                        ]
+                    },
+                    "eta": "1970-01-01T00:53:49Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388139-48.925839"
+                    ],
+                    "odometer": 1641,
+                    "wait": 0
+                },
+                {
+                    "location": "Willi-Egler-Weg 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388901,
+                            48.926047
+                        ],
+                        "snapped_coordinate": [
+                            8.388803,
+                            48.926064
+                        ]
+                    },
+                    "eta": "1970-01-01T00:59:32Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388901-48.926047"
+                    ],
+                    "odometer": 1700,
+                    "wait": 0
+                },
+                {
+                    "location": "Oskar-Kiefer-Straße 8",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389644,
+                            48.926013
+                        ],
+                        "snapped_coordinate": [
+                            8.389542,
+                            48.926028
+                        ]
+                    },
+                    "eta": "1970-01-01T01:06:01Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389644-48.926013"
+                    ],
+                    "odometer": 1825,
+                    "wait": 0
+                },
+                {
+                    "location": "Oskar-Kiefer-Straße 12",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390433,
+                            48.926182
+                        ],
+                        "snapped_coordinate": [
+                            8.390482,
+                            48.926259
+                        ]
+                    },
+                    "eta": "1970-01-01T01:12:13Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390433-48.926182"
+                    ],
+                    "odometer": 1925,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Grabenacker 12a",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390327,
+                            48.925634
+                        ],
+                        "snapped_coordinate": [
+                            8.390367,
+                            48.92573
+                        ]
+                    },
+                    "eta": "1970-01-01T01:18:22Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390327-48.925634"
+                    ],
+                    "odometer": 2020,
+                    "wait": 0
+                },
+                {
+                    "location": "Erich-Heckel-Straße 13",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391751,
+                            48.925848
+                        ],
+                        "snapped_coordinate": [
+                            8.391867,
+                            48.925833
+                        ]
+                    },
+                    "eta": "1970-01-01T01:25:06Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391751-48.925848"
+                    ],
+                    "odometer": 2165,
+                    "wait": 0
+                },
+                {
+                    "location": "Karl-Albicker-Straße Kreuzung Bergwaldstraße",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392622224274646,
+                            48.92569869466155
+                        ],
+                        "snapped_coordinate": [
+                            8.392621,
+                            48.925699
+                        ]
+                    },
+                    "eta": "1970-01-01T01:31:35Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392622224274646-48.92569869466155"
+                    ],
+                    "odometer": 2289,
+                    "wait": 0
+                },
+                {
+                    "location": "Karl-Albiker-Straße 10",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392443,
+                            48.924237
+                        ],
+                        "snapped_coordinate": [
+                            8.392612,
+                            48.924225
+                        ]
+                    },
+                    "eta": "1970-01-01T01:38:34Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392443-48.924237"
+                    ],
+                    "odometer": 2454,
+                    "wait": 0
+                },
+                {
+                    "location": "Karl-Albiker-Straße 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392231,
+                            48.92397
+                        ],
+                        "snapped_coordinate": [
+                            8.392251,
+                            48.92404
+                        ]
+                    },
+                    "eta": "1970-01-01T01:44:07Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392231-48.92397"
+                    ],
+                    "odometer": 2500,
+                    "wait": 0
+                }
+            ]
+        },
+        {
+            "vehicle": "Gruppe 6",
+            "stops": [
+                {
+                    "location": "Kniebisstraße 11",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393214,
+                            48.924237
+                        ],
+                        "snapped_coordinate": [
+                            8.393387,
+                            48.924248
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393214-48.924237"
+                    ],
+                    "odometer": 864,
+                    "wait": 0
+                },
+                {
+                    "location": "Kniebisstraße 7",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393068,
+                            48.924855
+                        ],
+                        "snapped_coordinate": [
+                            8.393297,
+                            48.924869
+                        ]
+                    },
+                    "eta": "1970-01-01T00:05:50Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393068-48.924855"
+                    ],
+                    "odometer": 934,
+                    "wait": 0
+                },
+                {
+                    "location": "Kniebisstraße 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393063,
+                            48.92543
+                        ],
+                        "snapped_coordinate": [
+                            8.393161,
+                            48.925532
+                        ]
+                    },
+                    "eta": "1970-01-01T00:11:50Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393063-48.92543"
+                    ],
+                    "odometer": 1018,
+                    "wait": 0
+                },
+                {
+                    "location": "Im Weilig 12",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392529,
+                            48.929129
+                        ],
+                        "snapped_coordinate": [
+                            8.392356,
+                            48.929217
+                        ]
+                    },
+                    "eta": "1970-01-01T00:23:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392529-48.929129"
+                    ],
+                    "odometer": 1532,
+                    "wait": 0
+                },
+                {
+                    "location": "Groß-Ott-Straße Kreuzung im Weilig",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.39261327783234,
+                            48.92942452464828
+                        ],
+                        "snapped_coordinate": [
+                            8.392614,
+                            48.929426
+                        ]
+                    },
+                    "eta": "1970-01-01T00:28:22Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.39261327783234-48.92942452464828"
+                    ],
+                    "odometer": 1563,
+                    "wait": 0
+                },
+                {
+                    "location": "Im Weilig 16",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393046,
+                            48.929669
+                        ],
+                        "snapped_coordinate": [
+                            8.392932,
+                            48.929724
+                        ]
+                    },
+                    "eta": "1970-01-01T00:33:52Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393046-48.929669"
+                    ],
+                    "odometer": 1604,
+                    "wait": 0
+                },
+                {
+                    "location": "Im Weilig 20 Kreuzung Gansgraben",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.39327646516827,
+                            48.93002829174685
+                        ],
+                        "snapped_coordinate": [
+                            8.393272,
+                            48.93003
+                        ]
+                    },
+                    "eta": "1970-01-01T00:39:22Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.39327646516827-48.93002829174685"
+                    ],
+                    "odometer": 1646,
+                    "wait": 0
+                },
+                {
+                    "location": "Gansgrabenweg 14",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392625,
+                            48.930199
+                        ],
+                        "snapped_coordinate": [
+                            8.392718,
+                            48.930287
+                        ]
+                    },
+                    "eta": "1970-01-01T00:44:58Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392625-48.930199"
+                    ],
+                    "odometer": 1696,
+                    "wait": 0
+                },
+                {
+                    "location": "Steinigäcker 14",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.393545,
+                            48.93046
+                        ],
+                        "snapped_coordinate": [
+                            8.393638,
+                            48.930528
+                        ]
+                    },
+                    "eta": "1970-01-01T00:51:23Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.393545-48.93046"
+                    ],
+                    "odometer": 1814,
+                    "wait": 0
+                },
+                {
+                    "location": "Steinigäcker Kreisel Hellenäcker",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392698635457975,
+                            48.93080321704599
+                        ],
+                        "snapped_coordinate": [
+                            8.392697,
+                            48.930804
+                        ]
+                    },
+                    "eta": "1970-01-01T00:57:23Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392698635457975-48.93080321704599"
+                    ],
+                    "odometer": 1897,
+                    "wait": 0
+                },
+                {
+                    "location": "Steinigäcker 9",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392159,
+                            48.931142
+                        ],
+                        "snapped_coordinate": [
+                            8.392083,
+                            48.931045
+                        ]
+                    },
+                    "eta": "1970-01-01T01:03:01Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392159-48.931142"
+                    ],
+                    "odometer": 1950,
+                    "wait": 0
+                },
+                {
+                    "location": "Steinigäcker 7",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391966,
+                            48.931235
+                        ],
+                        "snapped_coordinate": [
+                            8.391805,
+                            48.9313
+                        ]
+                    },
+                    "eta": "1970-01-01T01:08:35Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391966-48.931235"
+                    ],
+                    "odometer": 1997,
+                    "wait": 0
+                },
+                {
+                    "location": "Steinigäcker 3",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391812,
+                            48.931482
+                        ],
+                        "snapped_coordinate": [
+                            8.391907,
+                            48.931409
+                        ]
+                    },
+                    "eta": "1970-01-01T01:13:45Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391812-48.931482"
+                    ],
+                    "odometer": 2011,
+                    "wait": 0
+                },
+                {
+                    "location": "Gansgrabenweg 4",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391731,
+                            48.930604
+                        ],
+                        "snapped_coordinate": [
+                            8.391821,
+                            48.930691
+                        ]
+                    },
+                    "eta": "1970-01-01T01:20:04Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391731-48.930604"
+                    ],
+                    "odometer": 2120,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.391109,
+                            48.930791
+                        ],
+                        "snapped_coordinate": [
+                            8.390948,
+                            48.930849
+                        ]
+                    },
+                    "eta": "1970-01-01T01:26:01Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.391109-48.930791"
+                    ],
+                    "odometer": 2200,
+                    "wait": 0
+                },
+                {
+                    "location": "Groß-Ott-Straße Kreuzung Friedhof",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390181734055062,
+                            48.92999740614152
+                        ],
+                        "snapped_coordinate": [
+                            8.390178,
+                            48.930003
+                        ]
+                    },
+                    "eta": "1970-01-01T01:32:21Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390181734055062-48.929997406141524"
+                    ],
+                    "odometer": 2311,
+                    "wait": 0
+                },
+                {
+                    "location": "Groß-Ott-Straße 12",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.39117,
+                            48.930016
+                        ],
+                        "snapped_coordinate": [
+                            8.391188,
+                            48.930077
+                        ]
+                    },
+                    "eta": "1970-01-01T01:38:16Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.39117-48.930016"
+                    ],
+                    "odometer": 2388,
+                    "wait": 0
+                },
+                {
+                    "location": "Groß-Ott-Straße 13",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.392002,
+                            48.929858
+                        ],
+                        "snapped_coordinate": [
+                            8.391903,
+                            48.929779
+                        ]
+                    },
+                    "eta": "1970-01-01T01:44:01Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.392002-48.929858"
+                    ],
+                    "odometer": 2451,
+                    "wait": 0
+                }
+            ]
+        },
+        {
+            "vehicle": "Gruppe 2",
+            "stops": [
+                {
+                    "location": "Im Stöck 15",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.37721,
+                            48.921403
+                        ],
+                        "snapped_coordinate": [
+                            8.377131,
+                            48.921253
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.37721-48.921403"
+                    ],
+                    "odometer": 1918,
+                    "wait": 0
+                },
+                {
+                    "location": "Im Stöck 11",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376432,
+                            48.92142
+                        ],
+                        "snapped_coordinate": [
+                            8.376431,
+                            48.921287
+                        ]
+                    },
+                    "eta": "1970-01-01T00:05:37Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376432-48.92142"
+                    ],
+                    "odometer": 1970,
+                    "wait": 0
+                },
+                {
+                    "location": "Im Stöck 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.375376,
+                            48.921414
+                        ],
+                        "snapped_coordinate": [
+                            8.375375,
+                            48.92129
+                        ]
+                    },
+                    "eta": "1970-01-01T00:11:32Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.375376-48.921414"
+                    ],
+                    "odometer": 2048,
+                    "wait": 0
+                },
+                {
+                    "location": "Eisenstockstraße 14",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.374095,
+                            48.921269
+                        ],
+                        "snapped_coordinate": [
+                            8.37405,
+                            48.921116
+                        ]
+                    },
+                    "eta": "1970-01-01T00:18:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.374095-48.921269"
+                    ],
+                    "odometer": 2170,
+                    "wait": 0
+                },
+                {
+                    "location": "Eisenstockstraße 12",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.37402,
+                            48.922372
+                        ],
+                        "snapped_coordinate": [
+                            8.374169,
+                            48.922354
+                        ]
+                    },
+                    "eta": "1970-01-01T00:25:19Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.37402-48.922372"
+                    ],
+                    "odometer": 2364,
+                    "wait": 0
+                },
+                {
+                    "location": "Acherstraße 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.375175,
+                            48.922248
+                        ],
+                        "snapped_coordinate": [
+                            8.375177,
+                            48.92214
+                        ]
+                    },
+                    "eta": "1970-01-01T00:31:31Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.375175-48.922248"
+                    ],
+                    "odometer": 2464,
+                    "wait": 0
+                },
+                {
+                    "location": "Acherstraße 13",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376278,
+                            48.922237
+                        ],
+                        "snapped_coordinate": [
+                            8.376279,
+                            48.922148
+                        ]
+                    },
+                    "eta": "1970-01-01T00:37:29Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376278-48.922237"
+                    ],
+                    "odometer": 2545,
+                    "wait": 0
+                },
+                {
+                    "location": "Acherstraße 19",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.377081,
+                            48.922244
+                        ],
+                        "snapped_coordinate": [
+                            8.377082,
+                            48.922154
+                        ]
+                    },
+                    "eta": "1970-01-01T00:43:11Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.377081-48.922244"
+                    ],
+                    "odometer": 2604,
+                    "wait": 0
+                },
+                {
+                    "location": "Neckarstraße 16",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376448,
+                            48.922684
+                        ],
+                        "snapped_coordinate": [
+                            8.376449,
+                            48.922772
+                        ]
+                    },
+                    "eta": "1970-01-01T00:49:53Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376448-48.922684"
+                    ],
+                    "odometer": 2745,
+                    "wait": 0
+                },
+                {
+                    "location": "Kinzigstraße 3",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376585,
+                            48.923402
+                        ],
+                        "snapped_coordinate": [
+                            8.376447,
+                            48.923403
+                        ]
+                    },
+                    "eta": "1970-01-01T00:55:44Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376585-48.923402"
+                    ],
+                    "odometer": 2816,
+                    "wait": 0
+                },
+                {
+                    "location": "Kinzigstraße 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.376266,
+                            48.923835
+                        ],
+                        "snapped_coordinate": [
+                            8.376451,
+                            48.923834
+                        ]
+                    },
+                    "eta": "1970-01-01T01:01:19Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.376266-48.923835"
+                    ],
+                    "odometer": 2864,
+                    "wait": 0
+                },
+                {
+                    "location": "Beierbachstraße 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.375316,
+                            48.924077
+                        ],
+                        "snapped_coordinate": [
+                            8.375322,
+                            48.92397
+                        ]
+                    },
+                    "eta": "1970-01-01T01:07:31Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.375316-48.924077"
+                    ],
+                    "odometer": 2965,
+                    "wait": 0
+                },
+                {
+                    "location": "Murgstraße 5",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.375599,
+                            48.923471
+                        ],
+                        "snapped_coordinate": [
+                            8.375501,
+                            48.923471
+                        ]
+                    },
+                    "eta": "1970-01-01T01:13:20Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.375599-48.923471"
+                    ],
+                    "odometer": 3034,
+                    "wait": 0
+                },
+                {
+                    "location": "Neckarstraße 8",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.375401,
+                            48.92268
+                        ],
+                        "snapped_coordinate": [
+                            8.375402,
+                            48.922771
+                        ]
+                    },
+                    "eta": "1970-01-01T01:19:22Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.375401-48.92268"
+                    ],
+                    "odometer": 3119,
+                    "wait": 0
+                },
+                {
+                    "location": "Eisenstockstraße 10",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.374117,
+                            48.922916
+                        ],
+                        "snapped_coordinate": [
+                            8.374443,
+                            48.922914
+                        ]
+                    },
+                    "eta": "1970-01-01T01:25:23Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.374117-48.922916"
+                    ],
+                    "odometer": 3205,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße Bahnhof",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.374384240471215,
+                            48.92406504871707
+                        ],
+                        "snapped_coordinate": [
+                            8.374367,
+                            48.924076
+                        ]
+                    },
+                    "eta": "1970-01-01T01:32:03Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.374384240471215-48.92406504871707"
+                    ],
+                    "odometer": 3344,
+                    "wait": 0
+                },
+                {
+                    "location": "Seestraße 25a",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.373915,
+                            48.923568
+                        ],
+                        "snapped_coordinate": [
+                            8.3738,
+                            48.923633
+                        ]
+                    },
+                    "eta": "1970-01-01T01:37:50Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.373915-48.923568"
+                    ],
+                    "odometer": 3409,
+                    "wait": 0
+                }
+            ]
+        },
+        {
+            "vehicle": "Gruppe 1",
+            "stops": [
+                {
+                    "location": "Emil-Nolde-Weg 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389198,
+                            48.925251
+                        ],
+                        "snapped_coordinate": [
+                            8.389213,
+                            48.925318
+                        ]
+                    },
+                    "eta": "1970-01-01T00:00:00Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389198-48.925251"
+                    ],
+                    "odometer": 638,
+                    "wait": 0
+                },
+                {
+                    "location": "Franz-Marc-Straße 6",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388762,
+                            48.925218
+                        ],
+                        "snapped_coordinate": [
+                            8.388892,
+                            48.925201
+                        ]
+                    },
+                    "eta": "1970-01-01T00:05:26Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388762-48.925218"
+                    ],
+                    "odometer": 675,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 42",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388302,
+                            48.926441
+                        ],
+                        "snapped_coordinate": [
+                            8.388512,
+                            48.926414
+                        ]
+                    },
+                    "eta": "1970-01-01T00:12:32Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388302-48.926441"
+                    ],
+                    "odometer": 850,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Brurain 2",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388147,
+                            48.927066
+                        ],
+                        "snapped_coordinate": [
+                            8.388124,
+                            48.926982
+                        ]
+                    },
+                    "eta": "1970-01-01T00:18:41Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388147-48.927066"
+                    ],
+                    "odometer": 947,
+                    "wait": 0
+                },
+                {
+                    "location": "Am Brurain 18",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.386611,
+                            48.927273
+                        ],
+                        "snapped_coordinate": [
+                            8.386581,
+                            48.927154
+                        ]
+                    },
+                    "eta": "1970-01-01T00:25:04Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.386611-48.927273"
+                    ],
+                    "odometer": 1062,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 36",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388615,
+                            48.927116
+                        ],
+                        "snapped_coordinate": [
+                            8.38872,
+                            48.927101
+                        ]
+                    },
+                    "eta": "1970-01-01T00:32:10Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388615-48.927116"
+                    ],
+                    "odometer": 1237,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 23",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.38905,
+                            48.927671
+                        ],
+                        "snapped_coordinate": [
+                            8.388978,
+                            48.927686
+                        ]
+                    },
+                    "eta": "1970-01-01T00:37:58Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.38905-48.927671"
+                    ],
+                    "odometer": 1305,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 15",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389374,
+                            48.928204
+                        ],
+                        "snapped_coordinate": [
+                            8.389298,
+                            48.928227
+                        ]
+                    },
+                    "eta": "1970-01-01T00:43:45Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389374-48.928204"
+                    ],
+                    "odometer": 1370,
+                    "wait": 0
+                },
+                {
+                    "location": "Keltergasse 1",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389967,
+                            48.928511
+                        ],
+                        "snapped_coordinate": [
+                            8.389997,
+                            48.928472
+                        ]
+                    },
+                    "eta": "1970-01-01T00:49:36Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389967-48.928511"
+                    ],
+                    "odometer": 1441,
+                    "wait": 0
+                },
+                {
+                    "location": "Ettlinger Straße 12",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389584,
+                            48.929508
+                        ],
+                        "snapped_coordinate": [
+                            8.389672,
+                            48.929489
+                        ]
+                    },
+                    "eta": "1970-01-01T00:56:25Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389584-48.929508"
+                    ],
+                    "odometer": 1592,
+                    "wait": 0
+                },
+                {
+                    "location": "Georg-Blasel-Straße Cafe Gringel",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389768004220628,
+                            48.92908565053531
+                        ],
+                        "snapped_coordinate": [
+                            8.389769,
+                            48.92909
+                        ]
+                    },
+                    "eta": "1970-01-01T01:02:03Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389768004220628-48.92908565053531"
+                    ],
+                    "odometer": 1644,
+                    "wait": 0
+                },
+                {
+                    "location": "Georg-Blasel-Straße 9",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.390562,
+                            48.929006
+                        ],
+                        "snapped_coordinate": [
+                            8.390423,
+                            48.92908
+                        ]
+                    },
+                    "eta": "1970-01-01T01:07:41Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.390562-48.929006"
+                    ],
+                    "odometer": 1698,
+                    "wait": 0
+                },
+                {
+                    "location": "Morgenstraße 11",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388689,
+                            48.928773
+                        ],
+                        "snapped_coordinate": [
+                            8.388785,
+                            48.928799
+                        ]
+                    },
+                    "eta": "1970-01-01T01:14:44Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388689-48.928773"
+                    ],
+                    "odometer": 1869,
+                    "wait": 0
+                },
+                {
+                    "location": "Morgenstraße 16",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.387454,
+                            48.929622
+                        ],
+                        "snapped_coordinate": [
+                            8.387383,
+                            48.92964
+                        ]
+                    },
+                    "eta": "1970-01-01T01:21:47Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.387454-48.929622"
+                    ],
+                    "odometer": 2040,
+                    "wait": 0
+                },
+                {
+                    "location": "Morgenstraße 19",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388234,
+                            48.929278
+                        ],
+                        "snapped_coordinate": [
+                            8.388302,
+                            48.929415
+                        ]
+                    },
+                    "eta": "1970-01-01T01:27:46Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388234-48.929278"
+                    ],
+                    "odometer": 2122,
+                    "wait": 0
+                },
+                {
+                    "location": "Scheibenhardter Straße 2a",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388777,
+                            48.929851
+                        ],
+                        "snapped_coordinate": [
+                            8.388721,
+                            48.929873
+                        ]
+                    },
+                    "eta": "1970-01-01T01:33:30Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388777-48.929851"
+                    ],
+                    "odometer": 2183,
+                    "wait": 0
+                },
+                {
+                    "location": "Scheibenhardter Straße 9",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.388975,
+                            48.930404
+                        ],
+                        "snapped_coordinate": [
+                            8.389149,
+                            48.930349
+                        ]
+                    },
+                    "eta": "1970-01-01T01:39:14Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.388975-48.930404"
+                    ],
+                    "odometer": 2244,
+                    "wait": 0
+                },
+                {
+                    "location": "Scheibenhardter Straße 10",
+                    "location_metadata": {
+                        "supplied_coordinate": [
+                            8.389752,
+                            48.930873
+                        ],
+                        "snapped_coordinate": [
+                            8.389622,
+                            48.930926
+                        ]
+                    },
+                    "eta": "1970-01-01T01:45:07Z",
+                    "type": "service",
+                    "duration": 300,
+                    "services": [
+                        "8.389752-48.930873"
+                    ],
+                    "odometer": 2317,
+                    "wait": 0
+                }
+            ]
+        }
+    ],
+    "version": 1
+}

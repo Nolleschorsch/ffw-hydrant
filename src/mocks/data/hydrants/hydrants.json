@@ -1,0 +1,856 @@
+[
+    {
+        "id": 303,
+        "lat": 48.925583,
+        "lng": 8.393968,
+        "name": "Schauinslandstraße 3",
+        "active": true
+    },
+    {
+        "id": 304,
+        "lat": 48.926203,
+        "lng": 8.394296,
+        "name": "Schauinslandstraße 9",
+        "active": true
+    },
+    {
+        "id": 305,
+        "lat": 48.92573,
+        "lng": 8.393456,
+        "name": "Belchenstraße 10",
+        "active": true
+    },
+    {
+        "id": 235,
+        "lat": 48.929851,
+        "lng": 8.388777,
+        "name": "Scheibenhardter Straße 2a",
+        "active": true
+    },
+    {
+        "id": 290,
+        "lat": 48.930791,
+        "lng": 8.391109,
+        "name": "Ettlinger Straße 1",
+        "active": true
+    },
+    {
+        "id": 236,
+        "lat": 48.930404,
+        "lng": 8.388975,
+        "name": "Scheibenhardter Straße 9",
+        "active": true
+    },
+    {
+        "id": 237,
+        "lat": 48.930873,
+        "lng": 8.389752,
+        "name": "Scheibenhardter Straße 10",
+        "active": true
+    },
+    {
+        "id": 238,
+        "lat": 48.931482,
+        "lng": 8.391812,
+        "name": "Steinigäcker 3",
+        "active": true
+    },
+    {
+        "id": 239,
+        "lat": 48.931235,
+        "lng": 8.391966,
+        "name": "Steinigäcker 7",
+        "active": true
+    },
+    {
+        "id": 240,
+        "lat": 48.931142,
+        "lng": 8.392159,
+        "name": "Steinigäcker 9",
+        "active": true
+    },
+    {
+        "id": 243,
+        "lat": 48.93046,
+        "lng": 8.393545,
+        "name": "Steinigäcker 14",
+        "active": true
+    },
+    {
+        "id": 244,
+        "lat": 48.929129,
+        "lng": 8.392529,
+        "name": "Im Weilig 12",
+        "active": true
+    },
+    {
+        "id": 245,
+        "lat": 48.929669,
+        "lng": 8.393046,
+        "name": "Im Weilig 16",
+        "active": true
+    },
+    {
+        "id": 247,
+        "lat": 48.930604,
+        "lng": 8.391731,
+        "name": "Gansgrabenweg 4",
+        "active": true
+    },
+    {
+        "id": 248,
+        "lat": 48.930199,
+        "lng": 8.392625,
+        "name": "Gansgrabenweg 14",
+        "active": true
+    },
+    {
+        "id": 255,
+        "lat": 48.930016,
+        "lng": 8.39117,
+        "name": "Groß-Ott-Straße 12",
+        "active": true
+    },
+    {
+        "id": 256,
+        "lat": 48.929858,
+        "lng": 8.392002,
+        "name": "Groß-Ott-Straße 13",
+        "active": true
+    },
+    {
+        "id": 289,
+        "lat": 48.92942452464828,
+        "lng": 8.39261327783234,
+        "name": "Groß-Ott-Straße Kreuzung im Weilig",
+        "active": true
+    },
+    {
+        "id": 291,
+        "lat": 48.929508,
+        "lng": 8.389584,
+        "name": "Ettlinger Straße 12",
+        "active": true
+    },
+    {
+        "id": 292,
+        "lat": 48.929006,
+        "lng": 8.390562,
+        "name": "Georg-Blasel-Straße 9",
+        "active": true
+    },
+    {
+        "id": 294,
+        "lat": 48.92908565053531,
+        "lng": 8.389768004220628,
+        "name": "Georg-Blasel-Straße Cafe Gringel",
+        "active": true
+    },
+    {
+        "id": 293,
+        "lat": 48.92835192555981,
+        "lng": 8.39129011075886,
+        "name": "Georg-Blasel-Straße Ecke Im Weilig",
+        "active": true
+    },
+    {
+        "id": 295,
+        "lat": 48.928204,
+        "lng": 8.389374,
+        "name": "Ettlinger Straße 15",
+        "active": true
+    },
+    {
+        "id": 296,
+        "lat": 48.927671,
+        "lng": 8.38905,
+        "name": "Ettlinger Straße 23",
+        "active": true
+    },
+    {
+        "id": 297,
+        "lat": 48.928511,
+        "lng": 8.389967,
+        "name": "Keltergasse 1",
+        "active": true
+    },
+    {
+        "id": 246,
+        "lat": 48.93002829174685,
+        "lng": 8.39327646516827,
+        "name": "Im Weilig 20 Kreuzung Gansgraben",
+        "active": true
+    },
+    {
+        "id": 251,
+        "lat": 48.929997406141524,
+        "lng": 8.390181734055062,
+        "name": "Groß-Ott-Straße Kreuzung Friedhof",
+        "active": true
+    },
+    {
+        "id": 298,
+        "lat": 48.927261,
+        "lng": 8.390615,
+        "name": "Bergwaldstraße 14",
+        "active": true
+    },
+    {
+        "id": 299,
+        "lat": 48.927136,
+        "lng": 8.391393,
+        "name": "Bergwaldstraße 13",
+        "active": true
+    },
+    {
+        "id": 300,
+        "lat": 48.926316,
+        "lng": 8.392006,
+        "name": "Bergwaldstraße 28",
+        "active": true
+    },
+    {
+        "id": 301,
+        "lat": 48.925189,
+        "lng": 8.393658,
+        "name": "Bergwaldstraße 34",
+        "active": true
+    },
+    {
+        "id": 306,
+        "lat": 48.926047,
+        "lng": 8.393702,
+        "name": "Belchenstraße 22",
+        "active": true
+    },
+    {
+        "id": 307,
+        "lat": 48.927035,
+        "lng": 8.393455,
+        "name": "Belchenstraße 11",
+        "active": true
+    },
+    {
+        "id": 308,
+        "lat": 48.927117,
+        "lng": 8.394683,
+        "name": "Belchenstraße 30",
+        "active": true
+    },
+    {
+        "id": 309,
+        "lat": 48.927424,
+        "lng": 8.393944,
+        "name": "Belchenstraße 44",
+        "active": true
+    },
+    {
+        "id": 311,
+        "lat": 48.927196,
+        "lng": 8.392995,
+        "name": "Belchenstraße 15",
+        "active": true
+    },
+    {
+        "id": 312,
+        "lat": 48.927699,
+        "lng": 8.392169,
+        "name": "Belchenstraße 25",
+        "active": true
+    },
+    {
+        "id": 314,
+        "lat": 48.927551,
+        "lng": 8.391043,
+        "name": "Pfarrer-Benz-Straße 2",
+        "active": true
+    },
+    {
+        "id": 315,
+        "lat": 48.926287,
+        "lng": 8.390957,
+        "name": "Am Grabenacker 5",
+        "active": true
+    },
+    {
+        "id": 316,
+        "lat": 48.925634,
+        "lng": 8.390327,
+        "name": "Am Grabenacker 12a",
+        "active": true
+    },
+    {
+        "id": 318,
+        "lat": 48.924661,
+        "lng": 8.390393,
+        "name": "Am Grabenacker 19",
+        "active": true
+    },
+    {
+        "id": 319,
+        "lat": 48.925596,
+        "lng": 8.391161,
+        "name": "Erich-Heckel-Straße 2",
+        "active": true
+    },
+    {
+        "id": 320,
+        "lat": 48.925935,
+        "lng": 8.391379,
+        "name": "Erich-Heckel-Straße 5",
+        "active": true
+    },
+    {
+        "id": 321,
+        "lat": 48.925848,
+        "lng": 8.391751,
+        "name": "Erich-Heckel-Straße 13",
+        "active": true
+    },
+    {
+        "id": 323,
+        "lat": 48.924913,
+        "lng": 8.392083,
+        "name": "Karl-Hofer-Straße 8",
+        "active": true
+    },
+    {
+        "id": 324,
+        "lat": 48.924409,
+        "lng": 8.391678,
+        "name": "Otto-Dix-Straße 5",
+        "active": true
+    },
+    {
+        "id": 325,
+        "lat": 48.924064,
+        "lng": 8.391022,
+        "name": "Otto-Dix-Straße 9",
+        "active": true
+    },
+    {
+        "id": 329,
+        "lat": 48.924237,
+        "lng": 8.392443,
+        "name": "Karl-Albiker-Straße 10",
+        "active": true
+    },
+    {
+        "id": 330,
+        "lat": 48.92397,
+        "lng": 8.392231,
+        "name": "Karl-Albiker-Straße 1",
+        "active": true
+    },
+    {
+        "id": 333,
+        "lat": 48.924237,
+        "lng": 8.393214,
+        "name": "Kniebisstraße 11",
+        "active": true
+    },
+    {
+        "id": 334,
+        "lat": 48.927116,
+        "lng": 8.388615,
+        "name": "Ettlinger Straße 36",
+        "active": true
+    },
+    {
+        "id": 335,
+        "lat": 48.926441,
+        "lng": 8.388302,
+        "name": "Ettlinger Straße 42",
+        "active": true
+    },
+    {
+        "id": 326,
+        "lat": 48.92390613164926,
+        "lng": 8.390080221067478,
+        "name": "Otto-Dix-Straße Grabenacker 25",
+        "active": true
+    },
+    {
+        "id": 327,
+        "lat": 48.92569869466155,
+        "lng": 8.392622224274646,
+        "name": "Karl-Albicker-Straße Kreuzung Bergwaldstraße",
+        "active": true
+    },
+    {
+        "id": 328,
+        "lat": 48.92495688630916,
+        "lng": 8.392686217514921,
+        "name": "Karl-Albicker-Straße Kreuzung Karl-Hofer-Straße",
+        "active": true
+    },
+    {
+        "id": 336,
+        "lat": 48.925839,
+        "lng": 8.388139,
+        "name": "Ettlinger Straße 48",
+        "active": true
+    },
+    {
+        "id": 337,
+        "lat": 48.925571,
+        "lng": 8.388056,
+        "name": "Ettlinger Straße 50",
+        "active": true
+    },
+    {
+        "id": 339,
+        "lat": 48.924844,
+        "lng": 8.387824,
+        "name": "Ettlinger Straße 60",
+        "active": true
+    },
+    {
+        "id": 340,
+        "lat": 48.924668,
+        "lng": 8.388906,
+        "name": "Max-Beckmann-Straße 8",
+        "active": true
+    },
+    {
+        "id": 344,
+        "lat": 48.926013,
+        "lng": 8.389644,
+        "name": "Oskar-Kiefer-Straße 8",
+        "active": true
+    },
+    {
+        "id": 345,
+        "lat": 48.926182,
+        "lng": 8.390433,
+        "name": "Oskar-Kiefer-Straße 12",
+        "active": true
+    },
+    {
+        "id": 346,
+        "lat": 48.926047,
+        "lng": 8.388901,
+        "name": "Willi-Egler-Weg 1",
+        "active": true
+    },
+    {
+        "id": 242,
+        "lat": 48.93080321704599,
+        "lng": 8.392698635457975,
+        "name": "Steinigäcker Kreisel Hellenäcker",
+        "active": true
+    },
+    {
+        "id": 338,
+        "lat": 48.925291647533385,
+        "lng": 8.388131215644705,
+        "name": "Ettlinger Straße Kreuzung Graf-Ebersteinstraße",
+        "active": true
+    },
+    {
+        "id": 302,
+        "lat": 48.926836,
+        "lng": 8.392425,
+        "name": "Brückelweg 1",
+        "active": true
+    },
+    {
+        "id": 310,
+        "lat": 48.92783,
+        "lng": 8.393053,
+        "name": "Belchenstraße 60",
+        "active": true
+    },
+    {
+        "id": 313,
+        "lat": 48.92818,
+        "lng": 8.392323,
+        "name": "Belchenstraße 76",
+        "active": true
+    },
+    {
+        "id": 317,
+        "lat": 48.925181,
+        "lng": 8.390553,
+        "name": "Am Grabenacker 15",
+        "active": true
+    },
+    {
+        "id": 322,
+        "lat": 48.924869,
+        "lng": 8.390962,
+        "name": "Karl-Hofer-Straße 2",
+        "active": true
+    },
+    {
+        "id": 331,
+        "lat": 48.92543,
+        "lng": 8.393063,
+        "name": "Kniebisstraße 1",
+        "active": true
+    },
+    {
+        "id": 332,
+        "lat": 48.924855,
+        "lng": 8.393068,
+        "name": "Kniebisstraße 7",
+        "active": true
+    },
+    {
+        "id": 341,
+        "lat": 48.924475,
+        "lng": 8.389531,
+        "name": "Max-Beckmann-Straße 14",
+        "active": true
+    },
+    {
+        "id": 342,
+        "lat": 48.925218,
+        "lng": 8.388762,
+        "name": "Franz-Marc-Straße 6",
+        "active": true
+    },
+    {
+        "id": 343,
+        "lat": 48.925251,
+        "lng": 8.389198,
+        "name": "Emil-Nolde-Weg 2",
+        "active": true
+    },
+    {
+        "id": 370,
+        "lat": 48.924429,
+        "lng": 8.376276,
+        "name": "Wehraweg 8",
+        "active": true
+    },
+    {
+        "id": 371,
+        "lat": 48.924611,
+        "lng": 8.377325,
+        "name": "Elzweg 7",
+        "active": true
+    },
+    {
+        "id": 372,
+        "lat": 48.926116,
+        "lng": 8.379751,
+        "name": "Heckenweg 4",
+        "active": true
+    },
+    {
+        "id": 373,
+        "lat": 48.926116,
+        "lng": 8.37846,
+        "name": "Heckenweg 5",
+        "active": true
+    },
+    {
+        "id": 374,
+        "lat": 48.926018,
+        "lng": 8.377029,
+        "name": "Heckenweg 17",
+        "active": true
+    },
+    {
+        "id": 375,
+        "lat": 48.927123,
+        "lng": 8.3791,
+        "name": "Am Sportplatz 15",
+        "active": true
+    },
+    {
+        "id": 376,
+        "lat": 48.927562,
+        "lng": 8.37953,
+        "name": "Am Sportplatz 25",
+        "active": true
+    },
+    {
+        "id": 377,
+        "lat": 48.921414,
+        "lng": 8.375376,
+        "name": "Im Stöck 5",
+        "active": true
+    },
+    {
+        "id": 378,
+        "lat": 48.92142,
+        "lng": 8.376432,
+        "name": "Im Stöck 11",
+        "active": true
+    },
+    {
+        "id": 379,
+        "lat": 48.921403,
+        "lng": 8.37721,
+        "name": "Im Stöck 15",
+        "active": true
+    },
+    {
+        "id": 380,
+        "lat": 48.922248,
+        "lng": 8.375175,
+        "name": "Acherstraße 5",
+        "active": true
+    },
+    {
+        "id": 381,
+        "lat": 48.922237,
+        "lng": 8.376278,
+        "name": "Acherstraße 13",
+        "active": true
+    },
+    {
+        "id": 382,
+        "lat": 48.922244,
+        "lng": 8.377081,
+        "name": "Acherstraße 19",
+        "active": true
+    },
+    {
+        "id": 383,
+        "lat": 48.92268,
+        "lng": 8.375401,
+        "name": "Neckarstraße 8",
+        "active": true
+    },
+    {
+        "id": 384,
+        "lat": 48.922684,
+        "lng": 8.376448,
+        "name": "Neckarstraße 16",
+        "active": true
+    },
+    {
+        "id": 365,
+        "lat": 48.92580693518761,
+        "lng": 8.380172920664535,
+        "name": "Seestraße Kreuzung Dorfwiesenstraße",
+        "active": true
+    },
+    {
+        "id": 385,
+        "lat": 48.922916,
+        "lng": 8.374117,
+        "name": "Eisenstockstraße 10",
+        "active": true
+    },
+    {
+        "id": 367,
+        "lat": 48.9251485632509,
+        "lng": 8.377463493534123,
+        "name": "Seestraße Vettermann",
+        "active": true
+    },
+    {
+        "id": 368,
+        "lat": 48.92500527558536,
+        "lng": 8.376994425464517,
+        "name": "Seestraße Höhe Pfinzweg 2",
+        "active": true
+    },
+    {
+        "id": 386,
+        "lat": 48.922372,
+        "lng": 8.37402,
+        "name": "Eisenstockstraße 12",
+        "active": true
+    },
+    {
+        "id": 392,
+        "lat": 48.92406504871707,
+        "lng": 8.374384240471215,
+        "name": "Seestraße Bahnhof",
+        "active": true
+    },
+    {
+        "id": 347,
+        "lat": 48.929662,
+        "lng": 8.386203,
+        "name": "Römerstraße 10",
+        "active": true
+    },
+    {
+        "id": 348,
+        "lat": 48.929168,
+        "lng": 8.386062,
+        "name": "Römerstraße 18",
+        "active": true
+    },
+    {
+        "id": 349,
+        "lat": 48.928754,
+        "lng": 8.38599,
+        "name": "Römerstraße 24",
+        "active": true
+    },
+    {
+        "id": 350,
+        "lat": 48.928061,
+        "lng": 8.385788,
+        "name": "Römerstraße 34",
+        "active": true
+    },
+    {
+        "id": 351,
+        "lat": 48.927247,
+        "lng": 8.38562,
+        "name": "Römerstraße 44",
+        "active": true
+    },
+    {
+        "id": 352,
+        "lat": 48.92653,
+        "lng": 8.385493,
+        "name": "Römerstraße 54",
+        "active": true
+    },
+    {
+        "id": 353,
+        "lat": 48.925638,
+        "lng": 8.387319,
+        "name": "Graf-Eberstein-Straße 6",
+        "active": true
+    },
+    {
+        "id": 354,
+        "lat": 48.925879,
+        "lng": 8.386623,
+        "name": "Graf-Eberstein-Straße 14",
+        "active": true
+    },
+    {
+        "id": 355,
+        "lat": 48.927066,
+        "lng": 8.388147,
+        "name": "Am Brurain 2",
+        "active": true
+    },
+    {
+        "id": 356,
+        "lat": 48.927273,
+        "lng": 8.386611,
+        "name": "Am Brurain 18",
+        "active": true
+    },
+    {
+        "id": 357,
+        "lat": 48.928154,
+        "lng": 8.388159,
+        "name": "Rosenstraße 6",
+        "active": true
+    },
+    {
+        "id": 358,
+        "lat": 48.928353,
+        "lng": 8.387241,
+        "name": "Rosenstraße 16",
+        "active": true
+    },
+    {
+        "id": 359,
+        "lat": 48.928773,
+        "lng": 8.388689,
+        "name": "Morgenstraße 11",
+        "active": true
+    },
+    {
+        "id": 360,
+        "lat": 48.929278,
+        "lng": 8.388234,
+        "name": "Morgenstraße 19",
+        "active": true
+    },
+    {
+        "id": 361,
+        "lat": 48.929622,
+        "lng": 8.387454,
+        "name": "Morgenstraße 16",
+        "active": true
+    },
+    {
+        "id": 362,
+        "lat": 48.924539,
+        "lng": 8.382494,
+        "name": "Seestraße 7",
+        "active": true
+    },
+    {
+        "id": 363,
+        "lat": 48.924981,
+        "lng": 8.381537,
+        "name": "Seestraße 13",
+        "active": true
+    },
+    {
+        "id": 364,
+        "lat": 48.925274,
+        "lng": 8.382065,
+        "name": "Seestraße 6d",
+        "active": true
+    },
+    {
+        "id": 366,
+        "lat": 48.925719,
+        "lng": 8.379025,
+        "name": "Seestraße 24b",
+        "active": true
+    },
+    {
+        "id": 369,
+        "lat": 48.924897,
+        "lng": 8.376123,
+        "name": "Seestraße 32",
+        "active": true
+    },
+    {
+        "id": 387,
+        "lat": 48.921269,
+        "lng": 8.374095,
+        "name": "Eisenstockstraße 14",
+        "active": true
+    },
+    {
+        "id": 388,
+        "lat": 48.923471,
+        "lng": 8.375599,
+        "name": "Murgstraße 5",
+        "active": true
+    },
+    {
+        "id": 389,
+        "lat": 48.923835,
+        "lng": 8.376266,
+        "name": "Kinzigstraße 2",
+        "active": true
+    },
+    {
+        "id": 390,
+        "lat": 48.923402,
+        "lng": 8.376585,
+        "name": "Kinzigstraße 3",
+        "active": true
+    },
+    {
+        "id": 391,
+        "lat": 48.923568,
+        "lng": 8.373915,
+        "name": "Seestraße 25a",
+        "active": true
+    },
+    {
+        "id": 393,
+        "lat": 48.924077,
+        "lng": 8.375316,
+        "name": "Beierbachstraße 1",
+        "active": true
+    },
+    {
+        "id": 394,
+        "lat": 48.924104,
+        "lng": 8.377019,
+        "name": "Beierbachstraße 4",
+        "active": true
+    }
+]
