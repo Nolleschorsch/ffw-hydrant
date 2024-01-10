@@ -1,10 +1,9 @@
 import React from 'react'
 import {
-    createBrowserRouter,
     createHashRouter,
     RouterProvider,
     Navigate,
-    useLocation
+    useLocation,
 } from "react-router-dom"
 import { useSelector } from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -16,6 +15,8 @@ import Login from './Login'
 import Map from '../features/map/Map'
 import OpenFireMap from '../features/openfiremap/OpenFireMap'
 import './App.css'
+import Home from './Home'
+
 
 
 
@@ -51,7 +52,7 @@ const router = createHashRouter(
                     children: [
                         {
                             path: "/",
-                            element: <div>Hello World</div>
+                            element: <Home />
                         },
                         {
                             path: "/hydrant",
@@ -74,9 +75,9 @@ const router = createHashRouter(
 export const App = () => {
 
     return (
-        <Container fluid>
+        <div>
             <RouterProvider router={router} />
-        </Container>
+        </div>
     )
 
 }

@@ -1,8 +1,30 @@
-.map-container {
-    height: 100%
-    /*     height: 100%;
-    min-height: 100%; */
+.map-wrapper {
+    height: 92vh;
+    width: 100vw;
 }
+
+.map-container {
+    height: 100%;
+    width: 100%;
+}
+
+
+#menu-toggle-button {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: 1000;
+}
+
+#menu-offcanvas {
+    background-color: #ccc;
+    border-left: solid #333 thick;
+    border-top: solid #333 thick;
+    border-bottom: solid #333 thick;
+    border-radius: 25px 0 0 25px;
+}
+
+
 
 .hydrant-stack {
     overflow: auto;
@@ -39,5 +61,8 @@
         display: block;
         page: left
     }
-    .pagebreak { page-break-before: always; }
+
+    .pagebreak {
+        page-break-before: always;
+    }
 }

@@ -14,6 +14,7 @@ module.exports = {
         alias: {
             react: path.join(__dirname, 'node_modules', 'react'),
         },
+        fallback: { "url": require.resolve("url/") },
     },
     module: {
         rules: [

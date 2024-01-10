@@ -21,13 +21,40 @@ Extra extra large	xxl	≥1400px
     background-color: green;
 }
 
+.btn-primary {
+    background-color: #161191;
+    border-color: #161191;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0e0a7d;
+    border-color: #0e0a7d;
+    color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: #0e0a7d !important;
+    border-color: #0e0a7d;
+    color: white;
+}
+
+
 .navbar-ffw {
     font-size: 20pt;
     background-color: red;
+    width: 100%;
+    background-image: url('../../public/banner.png');
+    background-size: cover;
 }
 
 #navbar {
     border: solid brown 5px;
+}
+
+#navbar-brand {
+    font-style: italic;
+    font-weight: bold;
 }
 
 #login-jumbotron {
@@ -47,6 +74,20 @@ Extra extra large	xxl	≥1400px
 #login-btn {
     display: block;
     margin: 5vh auto;
+}
+
+.loading-spinner-overlay {
+    z-index: 1000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 @media only screen and (min-width: 576px) {

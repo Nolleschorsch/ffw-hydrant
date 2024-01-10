@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
-/* import hydrantsData from './dummydata/hydrants.json'
-import solutionData from './dummydata/solutionCompleteWithHome.json'
-import routes from './dummydata/routes.json' */
+//import hydrantsData from './dummydata/hydrants.json'
+import solutionData from '../../mocks/data/solution/solutionCompleteWithHome.json'
+import routes from '../../mocks/data/routes/routes.json'
 
 export const initialState = {
     accessToken: '',
