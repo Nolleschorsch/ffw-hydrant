@@ -37,12 +37,20 @@ export const SolutionSelect = (props) => {
         importFileInput.current.click()
     }
 
+    const handleReset = event => {
+        dispatch(setSolution({}))
+        dispatch(setRoutes([]))
+        dispatch(setSources([]))
+        dispatch(setLayers([]))
+        importFileInput.current.value = ''
+    }
+
     return (
         <>
             <ButtonGroup>
                 <Button onClick={handleExport}><Download className="me-3"/>Export</Button>
                 <Button onClick={handleImport2}><Upload className="me-3"/>Import</Button>
-                {/* <Button onClick={() => dispatch(setHydrants([]))}><Trash className="me-3"/>Löschen</Button> */}
+                <Button onClick={handleReset}><Trash className="me-3"/>Löschen</Button>
             </ButtonGroup>
             <Form.Control type="file" onChange={handleImport} ref={importFileInput} style={{display: 'none'}}/>
             {/* <Form.Select onChange={handleSolutionSelect} value={selectedSolution} disabled={isLoading}>

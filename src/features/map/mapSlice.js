@@ -11,7 +11,9 @@ export const initialState = {
     routes: [],
     solutionName: '',
     layers: {previous: [], current: []},
-    sources: {previous: [], current: []}
+    sources: {previous: [], current: []},
+    home: {},
+    homeMode: false
 }
 
 /* export const initialStateTest = {
@@ -101,6 +103,18 @@ export const mapSlice = createSlice({
                 ...state,
                 layers: {previous: state.layers.current, current: action.payload}
             }
+        },
+        setHomeMode(state, action) {
+            return {
+                ...state,
+                homeMode: action.payload
+            }
+        },
+        setHome(state, action) {
+            return {
+                ...state,
+                home: action.payload
+            }
         }
     }
 })
@@ -118,7 +132,9 @@ export const {
     setRoutes,
     setSolutionName,
     setSources,
-    setLayers
+    setLayers,
+    setHome,
+    setHomeMode
 } = mapSlice.actions
 
 

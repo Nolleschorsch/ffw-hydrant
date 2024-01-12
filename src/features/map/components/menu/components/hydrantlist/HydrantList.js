@@ -59,6 +59,11 @@ export const HydranList = () => {
         importFileInput.current.click()
     }
 
+    const handleReset = event => {
+        dispatch(setHydrants([]))
+        importFileInput.current.value = ''
+    }
+
     const filteredHydrants = getFilteredHydrants(hydrants, filter)
     const statusText =
         `${hydrants.length} Hydranten`
@@ -70,7 +75,7 @@ export const HydranList = () => {
             <ButtonGroup>
                 <Button onClick={handleDownload}><Download className="me-3"/>Export</Button>
                 <Button onClick={handleImport2}><Upload className="me-3"/>Import</Button>
-                <Button onClick={() => dispatch(setHydrants([]))}><Trash className="me-3"/>Löschen</Button>
+                <Button onClick={handleReset}><Trash className="me-3"/>Löschen</Button>
             </ButtonGroup>
             <Form.Control type="file" onChange={handleImport} ref={importFileInput} style={{display: 'none'}}/>
             <hr/>            

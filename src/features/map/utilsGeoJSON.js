@@ -1,5 +1,42 @@
 // TODO: this is a stupid solution. Refactor it.
+// BIGGEST PIECE OF SHIT EVER
 import * as utilsGeoJSON from './utilsGeoJSON' // hack to mock stuff
+
+
+export const createHomeSourceAndLayer = (home) => {
+    //const features = createGeoJSONPointSource([home.lng, home.lat], {})
+    //const features = createGeoJSONPointSource([], {})
+    const lat = home ? home.lat : 48.928557711511985
+    const lng = home ? home.lng : 8.382998438425176
+
+    //const features = home ? createGeoJSONPointSource([lng, lat], {}) : []
+    const features = home ? [createGeoJSONPointSource([home.lng, home.lat], {})] : []
+    const featureCollection = createGeoJSONFeatureCollection(features)
+    const source = {
+        type: 'geojson',
+        data: featureCollection,
+        promoteId: 'home-source'
+    }
+    /* const layer = createPointLayer({
+        layerName: 'home-layer',
+        sourceName: 'home-source',
+        color: '#11b4da'
+    }) */
+
+    const layer = {
+        id: 'home-layer',
+        type: 'circle',
+        source: 'home-source',
+        paint: {
+            'circle-color': 'green',
+            'circle-radius': 15,
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff'
+        }
+    }
+
+    return [source, layer]
+}
 
 export const createFooHydrantsSourceAndLayer = (hydrants) => {
 
@@ -21,8 +58,9 @@ export const createFooHydrantsSourceAndLayer = (hydrants) => {
     const layer = createPointLayer({
         layerName: 'foobar123-layer',
         sourceName: 'foobar123-source',
-        color: 'green'
+        color: 'red'
     })
+
 
     return [source, layer]
 }

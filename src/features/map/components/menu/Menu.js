@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { setHomeMode } from '../../mapSlice'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Optimization from './components/optimization'
@@ -20,10 +22,12 @@ export const getLayers = (key, layers) => {
     return { visibleLayers, invisibleLayers }
 }
 
+
 export const Menu = (props) => {
 
+    const dispatch = useDispatch()
     const { setLayerVisibility, getLayerVisibility, routes, layers } = props
-    const [key, setKey] = useState('optimization')
+    const [key, setKey] = useState('hydrants')
 
 
     const handleSelect = key => {
@@ -37,11 +41,7 @@ export const Menu = (props) => {
             setLayerVisibility(layer, false)
         }
 
-        /* const visible = key === 'optimization' ? false : true
-
-        setLayerVisibility('unclustered-point', visible)
-        setLayerVisibility('clusters', visible)
-        setLayerVisibility('cluster-count', visible) */
+        key === 'optimization' ? dispatch(setHomeMode(true)) : dispatch(setHomeMode(false))
 
     }
 

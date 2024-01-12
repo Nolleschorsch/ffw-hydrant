@@ -47,16 +47,13 @@ export const createSolutionInfo = (sortedSolutionRoutes) => {
 
 
 export const RouteList = props => {
-
-    console.log("rerender routelist")
+    // TODO: make the route toggling work properly
 
     const { setLayerVisibility, getLayerVisibility } = props
     const mapState = useSelector(state => state.mapbox)
     const { routes, solutionName, solution } = mapState
     const meh = Array(routes.length).fill(true)
-    console.log({ meh })
     const [showRoutes, setShowRoutes] = useState(Array(routes.length).fill(true))
-    console.log(showRoutes.length)
 
 
     const handleShowAll = event => {
@@ -74,10 +71,8 @@ export const RouteList = props => {
 
     const toggleRoute = (index, show) => {
         const route = routes[index]
-        console.log(route, show)
         toggleOne(route, setLayerVisibility, show)
         const _showRoutes = [...showRoutes].splice(index, 1, show)
-        console.log(_showRoutes)
         setShowRoutes(_showRoutes)
     }
 

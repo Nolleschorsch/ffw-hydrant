@@ -26,14 +26,8 @@ const autoPan = (map, popup) => {
 
     const popupClippedVertically = popupRelativeTop < 0 || (mapRect.height - popupRelativeTop - popupSize.height) < 0;
     if (popupClippedVertically) {
-        //pan[1] = point.y - ((mapRect.height - popupRect.height) / 2);
         pan[1] = point.y - mapRect.height
     }
-
-    /* if (pan != [0, 0]) {
-        alert(pan)
-        map.panBy(pan);
-    } */
     map.panBy(pan)
 }
 

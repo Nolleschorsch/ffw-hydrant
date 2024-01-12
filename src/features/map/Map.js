@@ -19,7 +19,6 @@ import { ArrowLeft } from 'react-bootstrap-icons';
 import { useMenu } from './hooks/useMenu';
 
 
-
 export const MapComponent = (props) => {
 
     const {

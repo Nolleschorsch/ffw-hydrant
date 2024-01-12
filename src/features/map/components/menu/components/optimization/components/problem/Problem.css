@@ -1,0 +1,28 @@
+#problem-modal > .modal-content {
+    background-color: #ccc;
+    border: solid #333 thick;
+}
+
+.btn-primary {
+    background-color: #161191;
+    border-color: #161191;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0e0a7d;
+    border-color: #0e0a7d;
+    color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: #0e0a7d !important;
+    border-color: #0e0a7d;
+    color: white;
+}
+
+.btn-primary:disabled {
+    background-color: #2e28f5;
+    border-color: #2e28f5;
+    color: white;
+}

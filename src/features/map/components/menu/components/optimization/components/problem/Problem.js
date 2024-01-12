@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 import Form from 'react-bootstrap/Form'
+import InputGroup from 'react-bootstrap/InputGroup'
 import {
     usePostRoutingProblemMutation,
     useLazyGetSolutionStatusQuery,
@@ -19,8 +20,10 @@ import {
     encodePolyline,
     timeout
 } from './index'
+import './Problem.css'
 
 import { generateRoutingProblemDocumentWithReturnHome } from './routingProblem'
+import { Clock, ClockFill, PencilFill, Person, PersonFill } from 'react-bootstrap-icons'
 /* import { createSourcesAndLayers } from './utilsGeoJSON'
 import { encodePolyline, timeout } from './utils' */
 /* import {
@@ -39,7 +42,7 @@ export const Problem = (props) => {
     //console.log({ accessToken })
 
     const dispatch = useDispatch()
-    const { hydrants, accessToken } = useSelector(state => state.mapbox)
+    const { hydrants, accessToken, home } = useSelector(state => state.mapbox)
     const locations = hydrants.map(x => ({ name: x.name, coordinates: [x.lng, x.lat] }))
 
     const [show, setShow] = useState(false)
@@ -75,24 +78,30 @@ export const Problem = (props) => {
     const handleSubmit = async () => {
         let invalid = true
 
+        //const home = { name: 'home', coordinates: [8.382894, 48.928595] }
+        const { name, lng, lat } = home
+        const _home = { name, coordinates: [lng, lat] }
 
         while (invalid) {
             try {
                 // why JSON.stringify if next step is JSON.parse?
                 const problem = JSON.parse(
-                    generateRoutingProblemDocumentWithReturnHome({
+                    /* generateRoutingProblemDocumentWithReturnHome({
                         locations, vehicleCount, home: 'home', duration
+                    } */
+                    generateRoutingProblemDocumentWithReturnHome({
+                        locations, vehicleCount, home: _home, duration
                     }
                     )
                 )
                 //setIsPending(true)
-                const fuck = await postRoutingProblem({...problem, accessToken}).unwrap()
+                const fuck = await postRoutingProblem({ ...problem, accessToken }).unwrap()
                 const id = fuck.id
                 //setId(id)
                 let pending = true
                 while (pending) {
 
-                    const solutionStatus = await getSolutionStatus({id, accessToken}).unwrap()
+                    const solutionStatus = await getSolutionStatus({ id, accessToken }).unwrap()
                     const item = solutionStatus.filter(x => x.id === id)[0]
                     if (item.status === 'complete') {
                         pending = false
@@ -109,7 +118,7 @@ export const Problem = (props) => {
 
                 }
 
-                const solution = await getSolution({id, accessToken}).unwrap()
+                const solution = await getSolution({ id, accessToken }).unwrap()
 
                 if (!solution.routes) {
                     continue
@@ -179,7 +188,8 @@ export const Problem = (props) => {
                 try {
                     // TODO: why only use coordinates? there is also waypoints, legs etc
                     const directions = await getDirections({
-                        coordinates: chunk, accessToken}).unwrap()
+                        coordinates: chunk, accessToken
+                    }).unwrap()
                     coordinates = [
                         ...coordinates,
                         ...directions.routes[0].geometry.coordinates
@@ -199,26 +209,39 @@ export const Problem = (props) => {
 
     return (
         <>
-            <Button onClick={() => setShow(true)} style={{display: "block"}}>Neue Lösung</Button>
-            <Modal show={show} onHide={() => setShow(false)} data-testid='problem-modal'>
-                <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+            <Button onClick={() => setShow(true)} style={{ display: "block" }}>Neue Lösung</Button>
+            <Modal show={show} onHide={() => setShow(false)} data-testid='problem-modal' id='problem-modal'>
+                <Modal.Header closeButton >
+                    <Modal.Title>Routing Problem</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Form.Control type="number" value={vehicleCount} onChange={handleVehicleCountChange}
-                        placeholder='Gruppenanzahl eintragen' isInvalid={!vehicleCount} min="1" />
-                    <Form.Control value={newSolutionName} onChange={handleNewSolutionNameChange}
-                        placeholder='Namen eintragen' />
-                    <Form.Control type="number" value={duration} onChange={handleDurationChange}
-                        placeholder='Zeit pro Hydrant in sec' min="1" />
+                    <InputGroup>
+                        <InputGroup.Text><PersonFill className='me-3' />Gruppenanzahl</InputGroup.Text>
+                        <Form.Control type="number" value={vehicleCount} onChange={handleVehicleCountChange}
+                            placeholder='Gruppenanzahl eintragen' isInvalid={!vehicleCount} min="1" />
+                    </InputGroup>
+                    <InputGroup>
+                        <InputGroup.Text><PencilFill className='me-3'/>Lösungsname</InputGroup.Text>
+                        <Form.Control value={newSolutionName} onChange={handleNewSolutionNameChange}
+                            placeholder='Namen eintragen' />
+                    </InputGroup>
+
+                    <InputGroup>
+                        <InputGroup.Text><ClockFill className='me-3' />Zeit je Hydrant</InputGroup.Text>
+                        <Form.Control type="number" value={duration} onChange={handleDurationChange}
+                            placeholder='Zeit pro Hydrant in sec' min="1" />
+                        <InputGroup.Text>sec</InputGroup.Text>
+                    </InputGroup>
+
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className='d-flex justify-content-evenly'>
+                    <Button variant="primary" onClick={handleCloseAndSubmit} disabled={!home.name}>
+                        Lösung anfordern
+                    </Button>
                     <Button variant="secondary" onClick={() => setShow(false)}>
                         Abbrechen
                     </Button>
-                    <Button variant="primary" onClick={handleCloseAndSubmit}>
-                        Lösung anfordern
-                    </Button>
+
                 </Modal.Footer>
             </Modal>
         </>

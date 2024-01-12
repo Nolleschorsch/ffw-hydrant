@@ -5,7 +5,8 @@ import Stack from 'react-bootstrap/Stack'
 import { Eye, EyeSlash, InfoCircle } from 'react-bootstrap-icons'
 import { getColor, getTimeDeltaMinutes, getStartEndDates } from './index'
 import Summary from '../summary/Summary'
-
+import './Route.css'
+import RouteStop from './components/routestop'
 
 export const Route = props => {
 
@@ -27,7 +28,7 @@ export const Route = props => {
     const deltaTimeMinutes = getTimeDeltaMinutes({ start, end })
 
 
-    const showRouteX = getLayerVisibility(routeLayer) === 'visible'
+    //const showRouteX = getLayerVisibility(routeLayer) === 'visible'
 
     const handleToggle = event => {
         console.log(`${name} current: ${show} setting to ${!show}`)
@@ -49,22 +50,19 @@ export const Route = props => {
     const summaryProps = { totalTime: deltaTimeMinutes, totalDistance: distance, totalHydrants: solutionRouteStops.length - 2 }
 
     return (
-        <div>
+        <div className='m-3'>
             <h5 style={{ color: routeColor }} className='d-flex justify-content-center'>{name}</h5>
-            {/* <h6>{info} | {deltaTimeMinutes - ((solutionRouteStops.length - 2) * 3)}</h6> */}
             <Summary {...summaryProps} />
             <Button onClick={handleToggle}>{show ? <Eye /> : <EyeSlash />}</Button>
 
             <Button onClick={() => setShowStops(!showStops)} data-testid='route-info-btn'>
-                {/* {showStops
-                    ? <EyeSlash data-testid='icon-eye-slash' />
-                    : <Eye data-testid='icon-eye' />
-                } */}
-                <InfoCircle className='me-3' />Info
+                <InfoCircle className='me-3' />Hydranten
             </Button>
             <Collapse in={showStops}>
-                <Stack>
-                    {solutionRouteStops.filter(x => x.type === 'service').map((stop, i) => <div key={i}>{`${i+1}. ${stop.location}`}</div>)}
+                <Stack className='route-stops'>
+
+                    {solutionRouteStops.filter(x => x.type === 'service').map((stop, i) => <RouteStop key={i} index={i} stop={stop} />)}
+                    {/* {solutionRouteStops.filter(x => x.type === 'service').map((stop, i) => <div key={i}>{`${i+1}. ${stop.location}`}</div>)} */}
                 </Stack>
             </Collapse>
         </div>

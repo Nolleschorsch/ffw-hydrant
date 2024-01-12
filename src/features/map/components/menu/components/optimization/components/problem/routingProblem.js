@@ -67,9 +67,10 @@ export const generateRoutingProblemDocument = ({ locations, vehicleCount }) => {
 
 export const generateRoutingProblemDocumentWithReturnHome = ({ locations, vehicleCount, home, duration }) => {
 
-    const locationsWithHome = [{ name: home, coordinates: [8.382894, 48.928595] }, ...locations]
+    //const locationsWithHome = [{ name: home, coordinates: [8.382894, 48.928595] }, ...locations]
+    const locationsWithHome = [home, ...locations]
 
-    const vehicles = createVehiclesWithHome(vehicleCount, home)
+    const vehicles = createVehiclesWithHome(vehicleCount, home.name)
     const durationPerService = duration || 300//300// in seconds
     const services = createServices(locations, durationPerService)
 
